@@ -18,6 +18,7 @@ public class EdgeField {
       
       StringTokenizer st = new StringTokenizer(inputString, EdgeConvertFileParser.DELIM);
       numFigure = Integer.parseInt(st.nextToken());
+      logger.debug("setting defaults for EdgeField");
       name = st.nextToken();
       tableID = 0;
       tableBound = 0;

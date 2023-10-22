@@ -52,6 +52,7 @@ public abstract class EdgeConvertCreateDDL {
             maxBound = numBound;
          }
       }
+      logger.info("initialize complete");
    }
    
    protected EdgeTable getTable(int numFigure) {
