@@ -48,7 +48,7 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                      sb.append("(" + currentField.getVarcharValue() + ")"); //append varchar length in () if data type is varchar
                   }
                   if (currentField.getDisallowNull()) {
-                     logger.warning("Not Null");
+                     logger.warn("Not Null");
                      sb.append(" NOT NULL");
                   }
                   if (!currentField.getDefaultValue().equals("")) {
@@ -146,7 +146,7 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
             return "";
          }
          if (databaseName.equals("")) {
-            logger.warning("Name is required for your database");
+            logger.warn("Name is required for your database");
             JOptionPane.showMessageDialog(null, "You must select a name for your database.");
          }
       } while (databaseName.equals(""));
