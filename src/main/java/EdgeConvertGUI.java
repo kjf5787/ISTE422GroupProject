@@ -486,6 +486,7 @@ public class EdgeConvertGUI {
                try {
                   logger.debug("Start try block to set jtfDTVarchar text in ActionListener");
                   if (result.length() > 5) {
+                     logger.warn("Varchar length was not greater than 0 and less than or equal to 65535.");
                      JOptionPane.showMessageDialog(null, "Varchar length must be greater than 0 and less than or equal to 65535.");
                      jtfDTVarchar.setText(Integer.toString(EdgeField.VARCHAR_DEFAULT_LENGTH));
                      return;
@@ -1273,6 +1274,7 @@ public class EdgeConvertGUI {
       public void actionPerformed(ActionEvent ae) {
          logger.info("Action performed in CreateDDLButtonListener");
          while (outputDir == null) {
+            logger.warn("Path that contains valid output definition files not selected.");
             JOptionPane.showMessageDialog(null, "You have not selected a path that contains valid output definition files yet.\nPlease select a path now.");
             setOutputDir();
          }
