@@ -1,0 +1,191 @@
+
+> Task :compileJava
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1102: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                  objOutput = conResultClass.newInstance(null);
+                                                         ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1108: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+               Method getProductName = resultClass.getMethod("getProductName", null);
+                                                                               ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1109: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+               String productName = (String)getProductName.invoke(objOutput, null);
+                                                                             ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1160: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+         Method getSQLString = selectedSubclass.getMethod("getSQLString", null);
+                                                                          ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1161: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+         Method getDatabaseName = selectedSubclass.getMethod("getDatabaseName", null);
+                                                                                ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1162: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+         strSQLString = (String)getSQLString.invoke(objSubclasses[selected], null);
+                                                                             ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/Users/kaylafennell/Desktop/ISTE422/ISTE422GroupProject/src/main/java/EdgeConvertGUI.java:1163: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+         databaseName = (String)getDatabaseName.invoke(objSubclasses[selected], null);
+                                                                                ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 warnings
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+
+> Task :run
+11:27:36.214 INFO class:RunEdgeConvert - Starting application class RunEdgeConvert
+11:27:36.225 INFO class:EdgeConvertGUI - Creating new EdgeConvertGUI instance
+11:27:36.226 INFO class:EdgeConvertGUI - Setting native look and feel
+11:27:36.607 INFO class:EdgeConvertGUI - Creating DTScreen
+11:27:37.639 INFO class:EdgeConvertGUI - Creating DRScreen
+11:27:40.051 INFO class:EdgeConvertGUI - Action performed in EdgeMenuListener
+11:27:44.641 INFO class:EdgeConvertGUI - Loading edg file
+11:27:44.643 INFO class:EdgeConvertFileParser - creating new EdgeConvertFileParser instance
+11:27:44.644 INFO class:EdgeConvertFileParser - opening file Courses.edg
+11:27:44.646 INFO class:EdgeConvertFileParser - parsing edge file
+11:27:44.656 INFO class:EdgeConvertFileParser - checking to see if STUDENT exists
+11:27:44.662 INFO class:EdgeTable - creating new EdgeTable instance
+11:27:44.667 INFO class:EdgeConvertFileParser - checking to see if FACULTY exists
+11:27:44.668 INFO class:EdgeTable - creating new EdgeTable instance
+11:27:44.674 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.679 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.684 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.688 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.691 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.694 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.703 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.705 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.708 INFO class:EdgeField - creating new EdgeField instance
+11:27:44.709 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.712 INFO class:EdgeConvertFileParser - checking to see if COURSES exists
+11:27:44.712 INFO class:EdgeTable - creating new EdgeTable instance
+11:27:44.713 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.715 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.717 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.718 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.719 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.721 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.722 INFO class:EdgeConnector - Creating new EdgeConnector instance
+11:27:44.722 INFO class:EdgeConvertFileParser - converting ArrayList objects into arrays of appropriate Class type
+11:27:44.723 INFO class:EdgeConvertFileParser - identifying the nature of Connector endpoints
+11:27:44.723 INFO class:EdgeConnector - Get endPoint1
+11:27:44.723 INFO class:EdgeConnector - Get endPoint2
+11:27:44.724 INFO class:EdgeConnector - Set isEP2Field to true
+11:27:44.724 INFO class:EdgeConnector - Set isEP1Table to true
+11:27:44.725 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.725 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.725 INFO class:EdgeConnector - Get isEP2Table
+11:27:44.725 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.726 INFO class:EdgeConnector - Get endPoint1
+11:27:44.726 INFO class:EdgeConnector - Get endPoint2
+11:27:44.727 INFO class:EdgeConnector - Set isEP2Field to true
+11:27:44.727 INFO class:EdgeConnector - Set isEP1Table to true
+11:27:44.728 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.728 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.728 INFO class:EdgeConnector - Get isEP2Table
+11:27:44.728 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.728 INFO class:EdgeConnector - Get endPoint1
+11:27:44.728 INFO class:EdgeConnector - Get endPoint2
+11:27:44.729 INFO class:EdgeConnector - Set isEP2Field to true
+11:27:44.730 INFO class:EdgeConnector - Set isEP1Table to true
+11:27:44.730 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.730 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.730 INFO class:EdgeConnector - Get isEP2Table
+11:27:44.730 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.731 INFO class:EdgeConnector - Get endPoint1
+11:27:44.731 INFO class:EdgeConnector - Get endPoint2
+11:27:44.732 INFO class:EdgeConnector - Set isEP1Table to true
+11:27:44.733 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.733 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.733 INFO class:EdgeConnector - Get isEP2Table
+11:27:44.733 INFO class:EdgeConnector - Get endPoint1
+11:27:44.733 INFO class:EdgeConnector - Get endPoint2
+11:27:44.735 INFO class:EdgeConnector - Set isEP2Table to true
+11:27:44.735 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.735 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.735 INFO class:EdgeConnector - Get endPoint1
+11:27:44.736 INFO class:EdgeConnector - Get endPoint2
+11:27:44.737 INFO class:EdgeConnector - Set isEP1Table to true
+11:27:44.738 INFO class:EdgeConnector - Set isEP2Table to true
+11:27:44.738 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.738 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.738 INFO class:EdgeConnector - Get isEP2Table
+11:27:44.738 INFO class:EdgeConnector - Get endStyle1
+11:27:44.740 INFO class:EdgeConnector - Get endPoint1
+11:27:44.740 INFO class:EdgeConnector - Get endPoint2
+11:27:44.740 INFO class:EdgeConnector - Set isEP2Field to true
+11:27:44.741 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.741 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.741 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.741 INFO class:EdgeConnector - Get endPoint1
+11:27:44.741 INFO class:EdgeConnector - Get endPoint2
+11:27:44.742 INFO class:EdgeConnector - Set isEP2Table to true
+11:27:44.742 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.742 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.742 INFO class:EdgeConnector - Get endPoint1
+11:27:44.742 INFO class:EdgeConnector - Get endPoint2
+11:27:44.743 INFO class:EdgeConnector - Set isEP1Field to true
+11:27:44.744 INFO class:EdgeConnector - Set isEP2Table to true
+11:27:44.744 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.744 INFO class:EdgeConnector - Get isEP2Field
+11:27:44.744 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.744 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.744 INFO class:EdgeConnector - Get endPoint1
+11:27:44.744 INFO class:EdgeConnector - Get endPoint2
+11:27:44.745 INFO class:EdgeConnector - Set isEP1Field to true
+11:27:44.746 INFO class:EdgeConnector - Set isEP2Table to true
+11:27:44.746 INFO class:EdgeConnector - Get isEP1Field
+11:27:44.746 INFO class:EdgeConnector - Get isEP2Field
+11:27:44.746 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.746 INFO class:EdgeConnector - Get isEP1Table
+11:27:44.747 INFO class:EdgeTable - convert the ArrayList into int[]
+11:27:44.747 INFO class:EdgeTable - convert the ArrayList into int[]
+11:27:44.747 INFO class:EdgeTable - convert the ArrayList into int[]
+11:27:44.748 INFO class:EdgeConvertGUI - Populate lists
+11:27:44.749 INFO class:EdgeConvertGUI - Disable controls
+11:27:44.749 INFO class:EdgeConvertGUI - Depopulate lists
+11:28:04.145 INFO class:EdgeConvertGUI - Set current DT Table
+11:28:04.147 INFO class:EdgeConvertGUI - Get field name
+11:28:04.147 INFO class:EdgeConvertGUI - Get field name
+11:28:04.148 INFO class:EdgeConvertGUI - Disable controls
+11:28:04.168 INFO class:EdgeConvertGUI - Set current DT Table
+11:28:04.168 INFO class:EdgeConvertGUI - Get field name
+11:28:04.168 INFO class:EdgeConvertGUI - Get field name
+11:28:04.169 INFO class:EdgeConvertGUI - Disable controls
+11:28:05.555 INFO class:EdgeConvertGUI - Action performed in CreateDDLButtonListener
+11:28:05.555 WARN class:EdgeConvertGUI - Path that contains valid output definition files not selected.
+11:28:06.770 INFO class:EdgeConvertGUI - Set output dir
+11:28:12.859 INFO class:EdgeConvertGUI - Get output classes
+11:28:12.864 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@514d9360 and [LEdgeField;@2a4cbdca
+11:28:12.865 INFO class:EdgeField - initialize complete
+11:28:12.866 INFO class:EdgeConvertGUI - Display product names
+11:28:14.196 INFO class:EdgeConvertGUI - Get output classes
+11:28:14.196 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@514d9360 and [LEdgeField;@2a4cbdca
+11:28:14.197 INFO class:EdgeField - initialize complete
+11:28:14.197 INFO class:EdgeConvertGUI - Get SQL statements
+11:28:15.431 INFO class:EdgeConvertGUI - Setting readSuccess
+11:28:16.580 INFO class:CreateDDLMySQL - End of field.
+11:28:16.581 INFO class:CreateDDLMySQL - End of field.
+11:28:16.581 INFO class:CreateDDLMySQL - End of table...
+11:28:16.582 INFO class:CreateDDLMySQL - End of field.
+11:28:16.582 INFO class:CreateDDLMySQL - End of field.
+11:28:16.582 INFO class:CreateDDLMySQL - End of table...
+11:28:16.583 INFO class:CreateDDLMySQL - End of field.
+11:28:16.584 INFO class:CreateDDLMySQL - End of field.
+11:28:16.584 INFO class:CreateDDLMySQL - End of table...
+11:28:16.585 INFO class:EdgeConvertGUI - Write SQL
+11:28:19.924 INFO class:EdgeConvertGUI - Saving SQL file
+11:28:26.306 INFO class:EdgeConvertGUI - Window closing in EdgeWindowListener
+
+BUILD SUCCESSFUL in 52s
+3 actionable tasks: 2 executed, 1 up-to-date
