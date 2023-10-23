@@ -1199,6 +1199,7 @@ public class EdgeConvertGUI {
              }
          }
          try {
+            logger.info("Saving SQL file");
             pw = new PrintWriter(new BufferedWriter(new FileWriter(outputFile, false)));
             //write the SQL statements
             pw.println(output);
@@ -1302,6 +1303,7 @@ public class EdgeConvertGUI {
             jfcEdge.addChoosableFileFilter(effEdge);
             returnVal = jfcEdge.showOpenDialog(null);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
+               logger.info("Loading edg file");
                parseFile = jfcEdge.getSelectedFile();
                ecfp = new EdgeConvertFileParser(parseFile);
                tables = ecfp.getEdgeTables();
