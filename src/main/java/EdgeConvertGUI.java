@@ -1007,7 +1007,7 @@ public class EdgeConvertGUI {
             //close the file
             pw.close();
          } catch (IOException ioe) {
-            System.out.println(ioe);
+            // System.out.println(ioe);
          }
          dataSaved = true;
       }
@@ -1091,7 +1091,7 @@ public class EdgeConvertGUI {
       alSubclasses.clear();
       try {
          for (int i = 0; i < resultFiles.length; i++) {
-         System.out.println(resultFiles[i].getName());
+         // System.out.println(resultFiles[i].getName());
             if (!resultFiles[i].getName().endsWith(".class")) {
                continue; //ignore all files that are not .class files
             }
@@ -1206,7 +1206,7 @@ public class EdgeConvertGUI {
             pw.close();
          } catch (IOException ioe) {
             logger.error("Exception caught: {}", ioe);
-            System.out.println(ioe);
+            // System.out.println(ioe);
          }
       }
    }
