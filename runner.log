@@ -1,0 +1,1174 @@
+2023-10-22 23:27:36.214 [main] INFO  RunEdgeConvert - Starting application class RunEdgeConvert
+2023-10-22 23:27:36.225 [main] INFO  EdgeConvertGUI - Creating new EdgeConvertGUI instance
+2023-10-22 23:27:36.226 [main] INFO  EdgeConvertGUI - Setting native look and feel
+2023-10-22 23:27:36.607 [main] INFO  EdgeConvertGUI - Creating DTScreen
+2023-10-22 23:27:36.607 [main] DEBUG EdgeConvertGUI - Creating JFrame jfDT
+2023-10-22 23:27:36.809 [main] DEBUG EdgeConvertGUI - Creating menu bar jmbDTMenuBar for DTScreen
+2023-10-22 23:27:36.814 [main] DEBUG EdgeConvertGUI - Creating file menu bar jmDTFile for DTScreen
+2023-10-22 23:27:36.837 [main] DEBUG EdgeConvertGUI - Creating options menu bar jmDTFile for DTScreen
+2023-10-22 23:27:36.838 [main] DEBUG EdgeConvertGUI - Creating help menu bar jmDTHelp for DTScreen
+2023-10-22 23:27:37.615 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTBottom
+2023-10-22 23:27:37.616 [main] DEBUG EdgeConvertGUI - Making CreateDDL button
+2023-10-22 23:27:37.617 [main] DEBUG EdgeConvertGUI - Making Define Relations button
+2023-10-22 23:27:37.617 [main] DEBUG EdgeConvertGUI - Adding action listener to Define Relations button
+2023-10-22 23:27:37.619 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDTTablesAll
+2023-10-22 23:27:37.620 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDTFieldsTablesAll
+2023-10-22 23:27:37.620 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTMove
+2023-10-22 23:27:37.621 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jbDTMoveUp
+2023-10-22 23:27:37.621 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDTMoveDown
+2023-10-22 23:27:37.621 [main] DEBUG EdgeConvertGUI - Creating JScrollPane jspDTTablesAll
+2023-10-22 23:27:37.622 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTCenter1
+2023-10-22 23:27:37.623 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTCenter2
+2023-10-22 23:27:37.624 [main] DEBUG EdgeField - getting strDataType
+2023-10-22 23:27:37.627 [main] DEBUG EdgeConvertGUI - Creating JCheckBox jcheckDTDisallowNull
+2023-10-22 23:27:37.628 [main] DEBUG EdgeConvertGUI - Adding item listener to jcheckDTDisallowNull
+2023-10-22 23:27:37.629 [main] DEBUG EdgeConvertGUI - Creating JCheckBox jcheckDTPrimaryKey
+2023-10-22 23:27:37.629 [main] DEBUG EdgeConvertGUI - Adding item listener to jcheckDTPrimaryKey
+2023-10-22 23:27:37.629 [main] DEBUG EdgeConvertGUI - Creating JButton jbDTDefaultValue
+2023-10-22 23:27:37.630 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDTDefaultValue
+2023-10-22 23:27:37.631 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDTVarchar
+2023-10-22 23:27:37.633 [main] DEBUG EdgeConvertGUI - Creating new JPanel jpDTCenterRight2
+2023-10-22 23:27:37.639 [main] INFO  EdgeConvertGUI - Creating DRScreen
+2023-10-22 23:27:37.731 [main] DEBUG EdgeConvertGUI - Setting up menubars and menus for DRScreen
+2023-10-22 23:27:37.736 [main] DEBUG EdgeConvertGUI - Creating Options JMenu jmDROptions for DRScreen
+2023-10-22 23:27:37.737 [main] DEBUG EdgeConvertGUI - Creating Help JMenu jmDRHelp for DRScreen
+2023-10-22 23:27:37.739 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter
+2023-10-22 23:27:37.740 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter1
+2023-10-22 23:27:37.740 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter2
+2023-10-22 23:27:37.740 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter3
+2023-10-22 23:27:37.741 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter4
+2023-10-22 23:27:37.741 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRTablesRelations
+2023-10-22 23:27:37.742 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRFieldsTablesRelations
+2023-10-22 23:27:37.745 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRTablesRelatedTo
+2023-10-22 23:27:37.746 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRFieldsTablesRelatedTo
+2023-10-22 23:27:37.747 [main] DEBUG EdgeConvertGUI - Adding scroll panes and jlabels to jpDRCenter1-4
+2023-10-22 23:27:37.749 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDRDefineTables
+2023-10-22 23:27:37.749 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDRBindRelation
+2023-10-22 23:27:40.051 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Action performed in EdgeMenuListener
+2023-10-22 23:27:44.641 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Loading edg file
+2023-10-22 23:27:44.643 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - creating new EdgeConvertFileParser instance
+2023-10-22 23:27:44.644 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - opening file Courses.edg
+2023-10-22 23:27:44.646 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - the file is an Edge Diagrammer file
+2023-10-22 23:27:44.646 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - parsing this file
+2023-10-22 23:27:44.646 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - parsing edge file
+2023-10-22 23:27:44.649 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.649 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 1
+2023-10-22 23:27:44.649 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Entity
+2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Entity entry
+2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "STUDENT"
+2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: STUDENT
+2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: STUDENT
+2023-10-22 23:27:44.651 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.651 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 416,480,672,544
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.653 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.653 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.653 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER entity"
+2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.656 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.656 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Entity
+2023-10-22 23:27:44.656 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - checking to see if STUDENT exists
+2023-10-22 23:27:44.657 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - STUDENT does not exist
+2023-10-22 23:27:44.657 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.657 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.662 [AWT-EventQueue-0] INFO  EdgeTable - creating new EdgeTable instance
+2023-10-22 23:27:44.663 [AWT-EventQueue-0] DEBUG EdgeTable - creating new EdgeTable instance using 1|STUDENT
+2023-10-22 23:27:44.663 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 2
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Entity
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Entity entry
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "FACULTY"
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FACULTY
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FACULTY
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 992,704,1248,768
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER entity"
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.667 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.667 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Entity
+2023-10-22 23:27:44.667 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - checking to see if FACULTY exists
+2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
+2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - FACULTY does not exist
+2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.668 [AWT-EventQueue-0] INFO  EdgeTable - creating new EdgeTable instance
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeTable - creating new EdgeTable instance using 2|FACULTY
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 3
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "Grade"
+2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Grade
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Grade
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 736,320,992,384
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.674 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.674 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 3|Grade
+2023-10-22 23:27:44.675 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.675 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.675 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 4
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "CourseName"
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: CourseName
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: CourseName
+2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 1024,224,1280,288
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.679 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.679 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.679 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.679 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 4|CourseName
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 5
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "Number"
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Number
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Number
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 1248,320,1504,384
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 5|Number
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 6
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "FacSSN"
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacSSN
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacSSN
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 704,832,960,896
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 6|FacSSN
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 7
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "StudentSSN"
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentSSN
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentSSN
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 128,576,384,640
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 7|StudentSSN
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 8
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "StudentName"
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentName
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentName
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 160,384,416,448
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 8|StudentName
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 9
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.696 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.703 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 10
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 11
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
+2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "FacultyName"
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacultyName
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacultyName
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 640,672,896,736
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 11|FacultyName
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 12
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.709 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 13
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Entity
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Entity entry
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "COURSES"
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: COURSES
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: COURSES
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 992,480,1248,544
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER entity"
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
+2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Entity
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - checking to see if COURSES exists
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - COURSES does not exist
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] INFO  EdgeTable - creating new EdgeTable instance
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeTable - creating new EdgeTable instance using 13|COURSES
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 14
+2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER mand many
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER opt many
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 15
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
+2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 16
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER mand many
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER opt many
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 17
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 18
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
+2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 19
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 20
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER single
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER opt many
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 21
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 22
+2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.719 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 23
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 24
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - closing this file
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting ArrayList objects into array of the appropriate Class type
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - converting ArrayList objects into arrays of appropriate Class type
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting alTables to array
+2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting alFields to array
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting alConnectors to array
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - identifying the nature of Connector endpoints
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - identifying the nature of Connector endpoints
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 4
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.724 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index 4
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint1 is the table- adding to table's field list
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeTable - adding 7 to alNativeFields
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 1
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 5
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index 5
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint1 is the table- adding to table's field list
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeTable - adding 8 to alNativeFields
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 1
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 6
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index 6
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
+2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint1 is the table- adding to table's field list
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeTable - adding 11 to alNativeFields
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 2
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index -1
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.735 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
+2023-10-22 23:27:44.735 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index -1
+2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
+2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index -1
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index -1
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - both endpoints are tables
+2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get endStyle1
+2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - adding 13 to alRelatedTables
+2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding 13 each table's list of related tables
+2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - adding 2 to alRelatedTables
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding 2 each table's list of related tables
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 0
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint2 is the table- adding to table's field list
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - adding 3 to alNativeFields
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 13
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index -1
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Field to true
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in fields array in index 2
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index 2
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Field
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint2 is the table- adding to table's field list
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - adding 5 to alNativeFields
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 13
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Field to true
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in fields array in index 3
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index 3
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Field
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint2 is the table- adding to table's field list
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - adding 6 to alNativeFields
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 2
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - getting EdgeTable: [LEdgeTable;@514d9360
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] INFO  EdgeTable - convert the ArrayList into int[]
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - nativeFields array: [I@f1c1ca6
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedTables array: [I@f1c1ca6
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedFields array: [I@f1c1ca6
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] INFO  EdgeTable - convert the ArrayList into int[]
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - nativeFields array: [I@c4e1486
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedTables array: [I@c4e1486
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedFields array: [I@c4e1486
+2023-10-22 23:27:44.747 [AWT-EventQueue-0] INFO  EdgeTable - convert the ArrayList into int[]
+2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeTable - nativeFields array: [I@78312a0e
+2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeTable - relatedTables array: [I@78312a0e
+2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeTable - relatedFields array: [I@78312a0e
+2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - getting EdgeField: [LEdgeField;@2a4cbdca
+2023-10-22 23:27:44.748 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Populate lists
+2023-10-22 23:27:44.749 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Disable controls
+2023-10-22 23:27:44.749 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Depopulate lists
+2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
+2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedTables array: [I@274a57be
+2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
+2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedTables array: [I@3101a604
+2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
+2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedTables array: [I@7e6cef03
+2023-10-22 23:28:04.145 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Set current DT Table
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@78312a0e
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.148 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.148 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:04.148 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Disable controls
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Set current DT Table
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@78312a0e
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:04.169 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Disable controls
+2023-10-22 23:28:05.555 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Action performed in CreateDDLButtonListener
+2023-10-22 23:28:05.555 [AWT-EventQueue-0] WARN  EdgeConvertGUI - Path that contains valid output definition files not selected.
+2023-10-22 23:28:06.770 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Set output dir
+2023-10-22 23:28:12.859 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get output classes
+2023-10-22 23:28:12.864 [AWT-EventQueue-0] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@514d9360 and [LEdgeField;@2a4cbdca
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Initializing edgeConvert...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@4269d6f
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@53eb47c3
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@216b9f13
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:12.865 [AWT-EventQueue-0] INFO  EdgeField - initialize complete
+2023-10-22 23:28:12.866 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting product name: MySQL
+2023-10-22 23:28:12.866 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Display product names
+2023-10-22 23:28:14.196 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get output classes
+2023-10-22 23:28:14.196 [AWT-EventQueue-0] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@514d9360 and [LEdgeField;@2a4cbdca
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Initializing edgeConvert...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@4269d6f
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@53eb47c3
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@216b9f13
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] INFO  EdgeField - initialize complete
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting product name: MySQL
+2023-10-22 23:28:14.197 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get SQL statements
+2023-10-22 23:28:15.431 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Setting readSuccess
+2023-10-22 23:28:16.577 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating database...
+2023-10-22 23:28:16.578 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating table...
+2023-10-22 23:28:16.578 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@f1c1ca6
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@4269d6f
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 7
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
+2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 8
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
+2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of table...
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating table...
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@c4e1486
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@53eb47c3
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 11
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
+2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 6
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of table...
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating table...
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@78312a0e
+2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@216b9f13
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 3
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 5
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting name
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of table...
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting SQL String: CREATE DATABASE MySQLDB;
+USE MySQLDB;
+CREATE TABLE STUDENT (
+	StudentSSN VARCHAR(1),
+	StudentName VARCHAR(1),
+);
+
+CREATE TABLE FACULTY (
+	FacultyName VARCHAR(1),
+	FacSSN VARCHAR(1),
+);
+
+CREATE TABLE COURSES (
+	Grade VARCHAR(1),
+	Number VARCHAR(1),
+);
+
+
+2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting database name: MySQLDB
+2023-10-22 23:28:16.585 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Write SQL
+2023-10-22 23:28:19.924 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Saving SQL file
+2023-10-22 23:28:26.306 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Window closing in EdgeWindowListener
