@@ -15,9 +15,10 @@ Team nkt's project can be found here: https://github.com/kjf5787/ISTE422GroupPro
 
 ### How to Compile & Run
 
-Tests can be compiled with gradle with the "gradle test" command.
+Tests can be compiled with gradle with the `gradle test` command.
 The output should show which tests were run and whether the build was successful or failed.
-A report of the results can be found here: build/reports/tests/test/index.html 
+When tests execute, you will see some output on the console, specifically from `logger.info`.
+A full report of the results can be found here: build/reports/tests/test/index.html 
 
 The versions used to test these instructions: 
 - OpenJDK version: 18.0.2.1 
