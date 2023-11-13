@@ -13,8 +13,12 @@ public class CreateDDLMySQLTest {
 
     @Before
     public void setUp() throws Exception {
-        testObj1 = new CreateDDLMySQL("1|2|3|testStyle1|testStyle2");
-        testObj2 = new CreateDDLMySQL("1|2|3|testStyle1|testStyle2");
+        EdgeTable[] table1 = {};
+        EdgeField[] field1 = {};
+        EdgeTable[] table2 = {};
+        EdgeField[] field2 = {};
+        testObj1 = new CreateDDLMySQL(table1, field1);
+        testObj2 = new CreateDDLMySQL(table2, field2);
     }
 
     @Test 
