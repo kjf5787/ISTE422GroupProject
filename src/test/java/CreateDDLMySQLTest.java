@@ -13,10 +13,10 @@ public class CreateDDLMySQLTest {
 
     @Before
     public void setUp() throws Exception {
-        EdgeTable[] table1 = {};
-        EdgeField[] field1 = {};
-        EdgeTable[] table2 = {};
-        EdgeField[] field2 = {};
+        EdgeTable[] table1 = {getTable("")};
+        EdgeField[] field1 = {getField("")};
+        EdgeTable[] table2 = {getTable("")};
+        EdgeField[] field2 = {getField("")};
         testObj1 = new CreateDDLMySQL(table1, field1);
         testObj2 = new CreateDDLMySQL(table2, field2);
     }
