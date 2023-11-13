@@ -16,4 +16,5 @@ Team nkt's project can be found here: https://github.com/kjf5787/ISTE422GroupPro
 ### How to Compile & Run
 
 Tests can be compiled with gradle with the "gradle test" command.
+The output should show which tests were run and whether the build was successful or failed.
 A report of the results can be found here: build/reports/tests/test/index.html 
