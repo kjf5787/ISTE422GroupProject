@@ -29,17 +29,6 @@ public class EdgeTableTest {
         int[] invalidIntArr = { 0, 1, 2 };
         double invalidDouble = 1.1;
         double[] invalidDoubleArr = { 1.1, 1.2, 1.3 };
-
-        String actual = "im a string";
-        String isStringType = temp.instanceOf(String) ? true : false;
-
-        // given string parameter passed, should iniitalize correctly
-        assertTrue("Parameter passed into constructor is a String type",
-                temp.instanceOf(String));
-        // given incorrect data type passed, should throw error
-        assertFalse("Parameter passed into constructor has to be of String type",
-                !temp.instanceOf(String));
-        fail("FAIL - Parameter must be of string type");
     }
 
     // getter tests
