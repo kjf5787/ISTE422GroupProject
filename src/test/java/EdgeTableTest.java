@@ -13,28 +13,34 @@ public class EdgeTableTest {
 
     // constructor test
     // given correct delimeter string, should initialize properly
-    // @Test
-    // public void givenCorrectDelim_whenEdgeTableConstructor_thenEquals() {
+    @Test
+    public void givenCorrectDelim_whenEdgeTableConstructor_thenEquals() {
+        String expected = "|";
+        String actual = EdgeConvertFileParser.DELIM;
 
-    // char expected = '|';
-    // char actual = table.DELIM;
+        assertEquals("FAIL - Delimiter character invalid", expected, actual);
+    }
 
-    // assertEquals("FAIL - Delimiter character invalid", expected, actual);
-    // }
+    @Test
+    public void givenStringParam_whenEdgeTableConstructor_thenEqual() {
+        String invalidString = "im a string";
+        String[] invalidStringArr = { "im", "a", "string", "array" };
+        int invalidInt = 1;
+        int[] invalidIntArr = { 0, 1, 2 };
+        double invalidDouble = 1.1;
+        double[] invalidDoubleArr = { 1.1, 1.2, 1.3 };
 
-    // @Test
-    // public void givenStringParam_whenEdgeTableConstructor_thenEqual() {
-    // String actual = "im a string";
-    // String isStringType = temp.instanceOf(String) ? true : false;
+        String actual = "im a string";
+        String isStringType = temp.instanceOf(String) ? true : false;
 
-    // // given string parameter passed, should iniitalize correctly
-    // assertTrue("Parameter passed into constructor is a String type",
-    // temp.instanceOf(String));
-    // // given incorrect data type passed, should throw error
-    // assertFalse("Parameter passed into constructor has to be of String type",
-    // !temp.instanceOf(String));
-    // fail("FAIL - Parameter must be of string type");
-    // }
+        // given string parameter passed, should iniitalize correctly
+        assertTrue("Parameter passed into constructor is a String type",
+                temp.instanceOf(String));
+        // given incorrect data type passed, should throw error
+        assertFalse("Parameter passed into constructor has to be of String type",
+                !temp.instanceOf(String));
+        fail("FAIL - Parameter must be of string type");
+    }
 
     // getter tests
     // given property exists, should return its correct value
@@ -69,26 +75,28 @@ public class EdgeTableTest {
     }
 
     // @Test
-    // public void givenRelatedFieldsArrayExists_whenGetProperty_thenEqual() {
-    // table.setRelatedFieldsArray(0, 1);
+    public void givenRelatedFieldsArrayExists_whenGetProperty_thenEqual() {
+        table.setRelatedField(0, 1);
+        table.setRelatedField(1, 2);
 
-    // int[] expected = { 0, 1 };
-    // int[] actual = table.getRelatedFieldsArray();
+        int[] expected = { 1, 2 };
+        int[] actual = table.getRelatedFieldsArray();
 
-    // assertArrayEquals(expected, actual);
-    // fail("FAIL - Related Fields Array invalid");
-    // }
+        assertArrayEquals(expected, actual);
+        fail("FAIL - Related Fields Array invalid");
+    }
 
-    // @Test
-    // public void givenNativeFieldsArrayExists_whenGetProperty_thenEqual() {
-    // table.setNativeFieldsArray(0, 1);
+    @Test
+    public void givenNativeFieldsArrayExists_whenGetProperty_thenEqual() {
+        table.addNativeField(1);
+        table.addNativeField(2);
 
-    // int[] expected = { 0, 1 };
-    // int[] actual = table.getNativeFieldsArray();
+        int[] expected = { 1, 2 };
+        int[] actual = table.getNativeFieldsArray();
 
-    // assertArrayEquals(expected, actual);
-    // fail("FAIL - Native Fields Array invalid");
-    // }
+        assertArrayEquals(expected, actual);
+        fail("FAIL - Native Fields Array invalid");
+    }
 
     // setter tests
     // setter should set the property of the class
@@ -126,9 +134,9 @@ public class EdgeTableTest {
         table.addNativeField(2);
         table.addNativeField(3);
 
-        // table.addRelatedField(1);
-        // table.addRelatedField(2);
-        // table.addRelatedField(3);
+        table.addRelatedTable(1);
+        table.addRelatedTable(2);
+        table.addRelatedTable(3);
 
         // move 2nd item in array up
         table.moveFieldUp(1);
@@ -175,9 +183,9 @@ public class EdgeTableTest {
         table.addNativeField(2);
         table.addNativeField(3);
 
-        // table.addRelatedField(1);
-        // table.addRelatedField(2);
-        // table.addRelatedField(3);
+        table.addRelatedTable(1);
+        table.addRelatedTable(2);
+        table.addRelatedTable(3);
 
         // move 2nd item in array up
         table.moveFieldDown(0);
@@ -216,20 +224,29 @@ public class EdgeTableTest {
     }
 
     // makeArrays test
-    // no paramters passed, relatedFields created and filled w
+    // no paramters passed, relatedFields created and filled with
     // values...nativeFields, relatedTables and relatedField are each an array of
     // integers
     // parameter passed, throw error
     @Test
     public void givenParams_whenMakeArrays_thenIncorrect() {
+        table.addNativeField(0);
+        table.addRelatedTable(0);
+        table.makeArrays();
 
+        int nativeFieldsArray = table.getNativeFieldsArray().length;
+        int relatedTablesArray = table.getRelatedTablesArray().length;
+        int relatedFieldsArray = table.getRelatedFieldsArray().length;
+
+        assertTrue("NativeFieldsArray cannot be empty", nativeFieldsArray == 0);
+        assertTrue("RelatedTablesArray cannot be empty", relatedTablesArray == 0);
+        assertTrue("RelatedFieldsArray cannot be empty", relatedFieldsArray == 0);
     }
 
     // toString test
     // no parameters passed, string should be returned
     @Test
     public void givenNoParams_whenToString_thenCorrect() {
-
         char[] expected = { 'T', 'a', 'b', 'l', 'e' };
         char[] actual = table.toString().substring(0, 5).toCharArray(); // get first 5 letters and compare
 
