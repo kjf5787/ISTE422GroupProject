@@ -38,6 +38,10 @@ public class EdgeTable {
       alRelatedTables.add(new Integer(relatedTable));
    }
 
+   public ArrayList getAlRelatedTables() {
+      return alRelatedTables;
+   }
+
    public int[] getRelatedTablesArray() {
       logger.debug("getting relatedTables array: " + relatedTables);
       return relatedTables;
@@ -48,9 +52,14 @@ public class EdgeTable {
       return relatedFields;
    }
 
+   public void setRelatedFieldsArray(int[] newArr) {
+      relatedFields = newArr;
+   }
+
    public void setRelatedField(int index, int relatedValue) {
-      logger.debug("setting relatedFields[" + index + "] to " + relatedValue);
       relatedFields[index] = relatedValue;
+
+      logger.debug("setting relatedFields[" + index + "] to " + relatedValue);
    }
 
    public int[] getNativeFieldsArray() {
@@ -58,49 +67,77 @@ public class EdgeTable {
       return nativeFields;
    }
 
+   public void setNativeFieldsArray(int[] newArr) {
+      nativeFields = newArr;
+   }
+
    public void addNativeField(int value) {
-      logger.debug("adding " + value + " to alNativeFields");
       alNativeFields.add(new Integer(value));
+      
+      logger.debug("adding " + value + " to alNativeFields");
+   }
+
+   public ArrayList getAlNativeFieldsArray() {
+      return alNativeFields;
    }
 
    public void moveFieldUp(int index) { // move the field closer to the beginning of the list
       logger.info("move the field closer to the beginning of the list");
+
+      logger.debug("switching native fields with index of " + index + " and " + (index - 1));
+      logger.debug("before -nativeFields[" + (index - 1) + "]: " + nativeFields[(index - 1)]);
+      logger.debug("before - nativeFields[" + index + "]: " + nativeFields[index]);
+
       if (index == 0) {
          return;
       }
-      logger.debug("switching native fields with index of " + index + " and " + (index - 1));
+      
       int tempNative = nativeFields[index - 1]; // save element at destination index
       nativeFields[index - 1] = nativeFields[index]; // copy target element to destination
       nativeFields[index] = tempNative; // copy saved element to target's original location
-      logger.debug("nativeFields[" + index + "]: " + nativeFields[index]);
-      logger.debug("nativeFields[" + (index - 1) + "]: " + nativeFields[(index - 1)]);
+
+      logger.debug("after - nativeFields[" + (index - 1) + "]: " + nativeFields[(index - 1)]);
+      logger.debug("after - nativeFields[" + index + "]: " + nativeFields[index]);
+
 
       logger.debug("switching related fields with index of " + index + " and " + (index - 1));
+      logger.debug("before -relatedFields[" + (index - 1) + "]: " + relatedFields[(index - 1)]);
+      logger.debug("before - relatedFields[" + index + "]: " + relatedFields[index]);
+
       int tempRelated = relatedFields[index - 1]; // save element at destination index
       relatedFields[index - 1] = relatedFields[index]; // copy target element to destination
       relatedFields[index] = tempRelated; // copy saved element to target's original location
-      logger.debug("relatedFields[" + index + "]: " + relatedFields[index]);
-      logger.debug("relatedFields[" + (index - 1) + "]: " + relatedFields[(index - 1)]);
+      logger.debug("after -relatedFields[" + (index - 1) + "]: " + relatedFields[(index - 1)]);
+      logger.debug("after - relatedFields[" + index + "]: " + relatedFields[index]);
    }
 
    public void moveFieldDown(int index) { // move the field closer to the end of the list
       logger.info("move the field closer to the end of the list");
+      
+      logger.debug("switching native fields with index of " + index + " and " + (index + 1));
+      logger.debug("before - nativeFields[" + index + "]: " + nativeFields[index]);
+      logger.debug("before - nativeFields[" + (index + 1) + "]: " + nativeFields[(index + 1)]);
+
       if (index == (nativeFields.length - 1)) {
          return;
       }
-      logger.debug("switching native fields with index of " + index + " and " + (index + 1));
+
       int tempNative = nativeFields[index + 1]; // save element at destination index
       nativeFields[index + 1] = nativeFields[index]; // copy target element to destination
       nativeFields[index] = tempNative; // copy saved element to target's original location
-      logger.debug("nativeFields[" + index + "]: " + nativeFields[index]);
-      logger.debug("nativeFields[" + (index + 1) + "]: " + nativeFields[(index - 1)]);
+      logger.debug("after - nativeFields[" + index + "]: " + nativeFields[index]);
+      logger.debug("after - nativeFields[" + (index + 1) + "]: " + nativeFields[(index + 1)]);
 
       logger.debug("switching related fields with index of " + index + " and " + (index + 1));
+      logger.debug("before - relatedFields[" + index + "]: " + relatedFields[index]);
+      logger.debug("before - relatedFields[" + (index - 1) + "]: " + relatedFields[(index + 1)]);
+
+
       int tempRelated = relatedFields[index + 1]; // save element at destination index
       relatedFields[index + 1] = relatedFields[index]; // copy target element to destination
       relatedFields[index] = tempRelated; // copy saved element to target's original location
-      logger.debug("relatedFields[" + index + "]: " + relatedFields[index]);
-      logger.debug("relatedFields[" + (index - 1) + "]: " + relatedFields[(index + 1)]);
+      logger.debug("after - relatedFields[" + index + "]: " + relatedFields[index]);
+      logger.debug("after - relatedFields[" + (index - 1) + "]: " + relatedFields[(index + 1)]);
    }
 
    public void makeArrays() { // convert the ArrayLists into int[]
@@ -118,13 +155,13 @@ public class EdgeTable {
       for (int i = 0; i < temp.length; i++) {
          relatedTables[i] = temp[i].intValue();
       }
-      logger.debug("relatedTables array: " + nativeFields);
+      logger.debug("relatedTables array: " + relatedTables);
 
       relatedFields = new int[nativeFields.length];
       for (int i = 0; i < relatedFields.length; i++) {
          relatedFields[i] = 0;
       }
-      logger.debug("relatedFields array: " + nativeFields);
+      logger.debug("relatedFields array: " + relatedFields);
    }
 
    public String toString() {

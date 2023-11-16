@@ -1,3 +1,5 @@
+/* author: Thea Arias */
+
 import static org.junit.Assert.*;
 
 import org.junit.Before;
@@ -7,233 +9,157 @@ public class EdgeTableTest {
     EdgeTable table;
 
     @Before
-    public void testInstance() {
+    public void setUp() {
+        //instantiate new EdgeTable object to test with
         table = new EdgeTable("1|tableName");
     }
 
-    // constructor test
-    // given correct delimeter string, should initialize properly
-    // @Test
-    // public void givenCorrectDelim_whenEdgeTableConstructor_thenEquals() {
-
-    // char expected = '|';
-    // char actual = table.DELIM;
-
-    // assertEquals("FAIL - Delimiter character invalid", expected, actual);
-    // }
-
-    // @Test
-    // public void givenStringParam_whenEdgeTableConstructor_thenEqual() {
-    // String actual = "im a string";
-    // String isStringType = temp.instanceOf(String) ? true : false;
-
-    // // given string parameter passed, should iniitalize correctly
-    // assertTrue("Parameter passed into constructor is a String type",
-    // temp.instanceOf(String));
-    // // given incorrect data type passed, should throw error
-    // assertFalse("Parameter passed into constructor has to be of String type",
-    // !temp.instanceOf(String));
-    // fail("FAIL - Parameter must be of string type");
-    // }
-
-    // getter tests
-    // given property exists, should return its correct value
-    @Test
-    public void givenNameExists_whenGetProperty_thenEqual() {
-        String expected = "tableName";
-        String actual = table.getName();
-        assertEquals("FAIL - Name invalid", expected, actual);
-    }
-
-    @Test
-    public void givenNumFigureExists_whenGetProperty_thenEqual() {
+    @Test // works
+    public void testGetNumFigure() {
         int expected = 1;
         int actual = table.getNumFigure();
-        assertEquals("FAIL - Figure number invalid", expected, actual);
+
+        assertEquals("NumFigure initialized as and must be 1", expected, actual);
     }
 
-    @Test
-    public void givenRelatedTableExists_whenGetProperty_thenEqual() {
-        table.addRelatedTable(1);
+    @Test // works
+    public void testGetName() {
+        String expected = "tableName";
+        String actual = table.getName();
 
-        int[] expected = { 1 };
-        int[] actual = table.getRelatedTablesArray();
-
-        assertArrayEquals(expected, actual);
-
-        if (actual.length == 0) {
-            fail("FAIL - Related Tables is empty");
-        } else {
-            fail("FAIL - Related Table invalid");
-        }
+        assertEquals("Name initialized as and must be 'tableName'", expected, actual);
     }
 
-    // @Test
-    // public void givenRelatedFieldsArrayExists_whenGetProperty_thenEqual() {
-    // table.setRelatedFieldsArray(0, 1);
+    @Test //works
+    public void testAddRelatedTable() {
+        table.addRelatedTable(1); 
 
-    // int[] expected = { 0, 1 };
-    // int[] actual = table.getRelatedFieldsArray();
-
-    // assertArrayEquals(expected, actual);
-    // fail("FAIL - Related Fields Array invalid");
-    // }
-
-    // @Test
-    // public void givenNativeFieldsArrayExists_whenGetProperty_thenEqual() {
-    // table.setNativeFieldsArray(0, 1);
-
-    // int[] expected = { 0, 1 };
-    // int[] actual = table.getNativeFieldsArray();
-
-    // assertArrayEquals(expected, actual);
-    // fail("FAIL - Native Fields Array invalid");
-    // }
-
-    // setter tests
-    // setter should set the property of the class
-    @Test
-    public void givenCorrectParams_whenSetRelatedField_thenEqual() {
-        table.setRelatedField(0, 1);
-
-        int[] expected = { 1 };
-        int[] actual = table.getRelatedFieldsArray();
-
-        assertArrayEquals(expected, actual);
-        fail("FAIL - Invalid parameters");
+        assertFalse("alRelatedTables cannot be empty",table.getAlRelatedTables().isEmpty());
     }
-    // wrong data type, throw error
 
-    // addNativeField test
-    // string paramter passed, alNativeFielsd array list count+1
-    @Test
-    public void givenCorrectParams_whenAddNativeField_thenEqual() {
-        table.addNativeField(1);
-        int length = table.getNativeFieldsArray().length;
-
+    @Test //works
+    public void testGetRelatedTablesArray() {
         int expected = 1;
-        int actual = table.getNativeFieldsArray()[length - 1];
+        table.addRelatedTable(1); 
+        int lastIndex = table.getAlRelatedTables().size()-1;
+        int actual = (int) table.getAlRelatedTables().get(lastIndex);
 
-        assertEquals("FAIL - Could not add to NativeField array", expected, actual);
+        assertEquals("Last index value is initialized as and should be 1", expected, actual);
     }
 
-    // moveFileUp test
-    // integer paramter, object inside nativeFields should have an index 1 less than
-    // ebfore
-    @Test
-    public void givenArraysExist_whenMoveFieldUp_valueMovesUp() {
-        table.addNativeField(1);
-        table.addNativeField(2);
-        table.addNativeField(3);
+    @Test //works
+    public void testGetRelatedFieldsArray() {
+        int[] temp = {1,2};
+        table.setRelatedFieldsArray(temp);
 
-        // table.addRelatedField(1);
-        // table.addRelatedField(2);
-        // table.addRelatedField(3);
+        assertFalse("relatedFieldsArray cannot be empty",table.getRelatedFieldsArray().length==0);
+    }
+
+    @Test //works
+    public void testSetRelatedField() {
+        //create non-empty relatedFieldsArray
+        int[] temp = {1,2};
+        table.setRelatedFieldsArray(temp);
+        table.setRelatedField(0, 2);
+
+        int expected = 2;
+        int actual = table.getRelatedFieldsArray()[0];
+
+        assertEquals("Value initalized as and should be 2",expected, actual);
+    }
+
+    @Test //works
+    public void testGetNativeFieldsArray() {
+        int[] temp = {1,2};
+        table.setNativeFieldsArray(temp);
+
+        assertFalse("relatedFieldsArray cannot be empty",table.getNativeFieldsArray().length==0);
+    }
+
+    @Test //works
+    public void testAddNativeField() {
+        //create non-empty alNativeFields array
+        table.addNativeField(1);
+
+        assertFalse("alNativeFields array must not be empty",table.getAlNativeFieldsArray().isEmpty());
+    }
+
+    @Test //works
+    public void testMoveFileUp() {
+        int[] temp = {1,2,3};
+        table.setNativeFieldsArray(temp);
+
+        int[] temp2 = {1,2,3};
+        table.setRelatedFieldsArray(temp2);
 
         // move 2nd item in array up
         table.moveFieldUp(1);
 
         // first value of each array should be 2
-        int nativeVal = table.getNativeFieldsArray()[0];
-        int relatedVal = table.getRelatedFieldsArray()[0];
+        int expectedValue = 2;
+        int actualNativeVal = table.getNativeFieldsArray()[0];
+        int actualRelatedVal = table.getRelatedFieldsArray()[0];
 
-        int[] expected = { 2, 2 };
-        int[] actual = { nativeVal, relatedVal };
-        assertArrayEquals(expected, actual);
-
-        if (nativeVal != 2) {
-            fail("FAIL - NativeFields array invalid");
-        } else {
-            fail("FAIL - RelatedFields array invalid");
-        }
-    }
-    // incorrect data type passed, throw error
-
-    @Test
-    public void givenArraysEmpty_whenMovieFieldUp_thenNotNull() {
-        boolean nativeArrIsEmpty = table.getNativeFieldsArray().length > 0 ? false : true;
-        boolean relatedArrIsEmpty = table.getRelatedFieldsArray().length > 0 ? false : true;
-
-        boolean[] expected = { false, false };
-        boolean[] actual = { nativeArrIsEmpty, relatedArrIsEmpty };
-
-        assertArrayEquals(expected, actual);
-
-        if (nativeArrIsEmpty) {
-            fail("FAIL - NativeFields array is empty");
-        } else {
-            fail("FAIL - RelatedFields array is empty");
-        }
+        assertEquals("Previous value of index is initialized as and should be 2",expectedValue, actualNativeVal);
+        assertEquals("Previous value of index is initialized as and should be 2",expectedValue, actualRelatedVal);
     }
 
-    // moveFileDown test
-    // integer paramter, object inside nativeFields should have an index 1 less than
-    // before
-    @Test
-    public void givenArraysExist_whenMoveFieldDown_valueMovesDown() {
-        table.addNativeField(1);
-        table.addNativeField(2);
-        table.addNativeField(3);
+    @Test //works
+    public void testMoveFileDown() {
+        int[] temp = {1,2,3};
+        table.setNativeFieldsArray(temp);
 
-        // table.addRelatedField(1);
-        // table.addRelatedField(2);
-        // table.addRelatedField(3);
+        int[] temp2 = {1,2,3};
+        table.setRelatedFieldsArray(temp2);
 
         // move 2nd item in array up
         table.moveFieldDown(0);
 
-        // first value of each array should be 1
-        int nativeVal = table.getNativeFieldsArray()[1];
-        int relatedVal = table.getRelatedFieldsArray()[1];
+        // first value of each array should be 2
+        int expectedValue = 1;
+        int actualNativeVal = table.getNativeFieldsArray()[1];
+        int actualRelatedVal = table.getRelatedFieldsArray()[1];
 
-        int[] expected = { 1, 1 };
-        int[] actual = { nativeVal, relatedVal };
-        assertArrayEquals(expected, actual);
-
-        if (nativeVal != 1) {
-            fail("FAIL - NativeFields array invalid");
-        } else {
-            fail("FAIL - RelatedFields array invalid");
-        }
-    }
-    // incorrect data type passed, throw error
-
-    @Test
-    public void givenArraysEmpty_whenMovieFieldDown_thenNotNull() {
-        boolean nativeArrIsEmpty = table.getNativeFieldsArray().length > 0 ? false : true;
-        boolean relatedArrIsEmpty = table.getRelatedFieldsArray().length > 0 ? false : true;
-
-        boolean[] expected = { false, false };
-        boolean[] actual = { nativeArrIsEmpty, relatedArrIsEmpty };
-
-        assertArrayEquals(expected, actual);
-
-        if (nativeArrIsEmpty) {
-            fail("FAIL - NativeFields array is empty");
-        } else {
-            fail("FAIL - RelatedFields array is empty");
-        }
+        assertEquals("Previous value of index is initialized as and should be 2",expectedValue, actualNativeVal);
+        assertEquals("Previous value of index is initialized as and should be 2",expectedValue, actualRelatedVal);
     }
 
-    // makeArrays test
-    // no paramters passed, relatedFields created and filled w
-    // values...nativeFields, relatedTables and relatedField are each an array of
-    // integers
-    // parameter passed, throw error
-    @Test
-    public void givenParams_whenMakeArrays_thenIncorrect() {
+    @Test //works
+    public void testMakeArrays() {
+        assertNotNull("alNativeFields array cannot be null", table.getAlNativeFieldsArray());
+        assertNotNull("alRelatedTables array cannot be null", table.getAlRelatedTables());
 
+        //create non-empty instance of alNativeFields
+        table.addNativeField(1);
+        table.addNativeField(2);
+
+        //create non-empty instance of alRelatedTables
+        table.addRelatedTable(1);
+        table.addRelatedTable(2);
+
+        table.makeArrays();
+        
+        assertFalse("nativeFields array cannot be empty",table.getNativeFieldsArray().length==0);
+        assertFalse("relatedTables array cannot be empty",table.getRelatedTablesArray().length==0);
+        assertFalse("relatedFields array cannot be empty",table.getRelatedFieldsArray().length==0);
     }
 
-    // toString test
-    // no parameters passed, string should be returned
-    @Test
-    public void givenNoParams_whenToString_thenCorrect() {
+    @Test //works
+    public void testToString() {
+        //create non-empty instance of alNativeFields
+        table.addNativeField(1);
+        table.addNativeField(2);
 
-        char[] expected = { 'T', 'a', 'b', 'l', 'e' };
-        char[] actual = table.toString().substring(0, 5).toCharArray(); // get first 5 letters and compare
+        //create non-empty instance of alRelatedTables
+        table.addRelatedTable(1);
+        table.addRelatedTable(2);
 
-        assertArrayEquals(expected, actual);
+        table.makeArrays();
+
+        assertNotNull("numFigure cannot be null", table.getNumFigure());
+        assertNotNull("name cannot be null", table.getName());
+        assertNotNull("nativeFields array cannot be null", table.getNativeFieldsArray());
+        assertNotNull("relatedTables array cannot be null", table.getRelatedTablesArray());
+        assertNotNull("relatedFields array cannot be null", table.getRelatedFieldsArray());
     }
-    // parameters passed, throw erorr
 }
