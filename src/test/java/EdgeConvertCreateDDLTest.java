@@ -75,7 +75,7 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 
     @Test
     public void testGetDatabaseName() {
-        assertEquals("DatabaseName was found",testObj1.getDatabaseName());
+        assertEquals("DatabaseName was found", testObj1.DatabaseName, testObj1.getDatabaseName());
 
     }
 }
