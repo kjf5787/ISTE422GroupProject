@@ -33,6 +33,8 @@ public class EdgeConvertGUI {
    EdgeWindowListener edgeWindowListener;
    CreateDDLButtonListener createDDLListener;
    private EdgeConvertFileParser ecfp;
+   private SaveFileParser sfp;
+   private EdgeFileParser efp;
    private EdgeConvertCreateDDL eccd;
    private static PrintWriter pw;
    private EdgeTable[] tables; //master copy of EdgeTable objects
@@ -1305,13 +1307,13 @@ public class EdgeConvertGUI {
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                logger.info("Loading edg file");
                parseFile = jfcEdge.getSelectedFile();
-               ecfp = new EdgeConvertFileParser(parseFile);
-               tables = ecfp.getEdgeTables();
+               efp = new EdgeFileParser(parseFile);
+               tables = efp.getEdgeTables();
                for (int i = 0; i < tables.length; i++) {
                   tables[i].makeArrays();
                }
-               fields = ecfp.getEdgeFields();
-               ecfp = null;
+               fields = efp.getEdgeFields();
+               efp = null;
                populateLists();
                saveFile = null;
                jmiDTSave.setEnabled(false);
@@ -1344,10 +1346,10 @@ public class EdgeConvertGUI {
             returnVal = jfcEdge.showOpenDialog(null);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                saveFile = jfcEdge.getSelectedFile();
-               ecfp = new EdgeConvertFileParser(saveFile);
-               tables = ecfp.getEdgeTables();
-               fields = ecfp.getEdgeFields();
-               ecfp = null;
+               sfp = new SaveFileParser(saveFile);
+               tables = sfp.getEdgeTables();
+               fields = sfp.getEdgeFields();
+               sfp = null;
                populateLists();
                parseFile = null;
                jmiDTSave.setEnabled(true);
