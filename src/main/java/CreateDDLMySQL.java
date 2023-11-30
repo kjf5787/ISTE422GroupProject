@@ -70,7 +70,12 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                      numForeignKey++;
                   }
                   logger.info("End of field.");
-                  sb.append(",\r\n"); //end of field
+                  if(!(nativeFieldCount == nativeFields.length-1)){
+                    sb.append(",\r\n"); //end of field // TODO problem 
+                  }
+                  else if(numPrimaryKey > 0 || numForeignKey > 0){
+                    sb.append(",\r\n"); //end of field // TODO problem 
+                  }
                }
                if (numPrimaryKey > 0) { //table has primary key(s)
                   sb.append("CONSTRAINT " + tables[tableCount].getName() + "_PK PRIMARY KEY (");
@@ -81,13 +86,13 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                         sb.append(getField(nativeFields[i]).getName());
                         numPrimaryKey--;
                         if (numPrimaryKey > 0) {
-                           sb.append(", ");
+                           sb.append(", "); //TODO is this a problem?
                         }
                      }
                   }
                   sb.append(")");
                   if (numForeignKey > 0) {
-                     sb.append(",");
+                     sb.append(","); //TODO is this a problem?
                   }
                   sb.append("\r\n");
                }
@@ -103,7 +108,7 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                         logger.debug("Foreign Key: " + getField(nativeFields[i]).getName());
                         logger.debug("References: " + getTable(getField(nativeFields[i]).getTableBound()).getName());
                         if (currentFK < numForeignKey) {
-                           sb.append(",\r\n");
+                           sb.append(",\r\n"); //TODO is this a problem?
                         }
                         currentFK++;
                      }
