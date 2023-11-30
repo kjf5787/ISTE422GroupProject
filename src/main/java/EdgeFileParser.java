@@ -6,6 +6,11 @@ import org.apache.logging.log4j.Logger;
 
 public class EdgeFileParser extends EdgeConvertFileParser {
 
+   protected String style; 
+   protected String text;
+   protected int endPoint1, endPoint2; 
+   protected String endStyle1, endStyle2; 
+
     private static Logger logger = LogManager.getLogger(EdgeFileParser.class.getName());
 
     /*

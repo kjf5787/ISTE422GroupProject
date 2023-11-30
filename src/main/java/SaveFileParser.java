@@ -7,6 +7,12 @@ import org.apache.logging.log4j.Logger;
 
 public class SaveFileParser extends EdgeConvertFileParser {
 
+   protected String tableName; 
+   protected String fieldName;
+
+   protected int numFields; 
+   protected int numTables; 
+
     private static Logger logger = LogManager.getLogger(SaveFileParser.class.getName());
 
     /*

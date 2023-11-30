@@ -8,32 +8,21 @@ public abstract class EdgeConvertFileParser {
    private static Logger logger = LogManager.getLogger(EdgeConvertFileParser.class.getName());
 
    // private String filename = "test.edg";
-   protected File parseFile; // used in both
-   protected FileReader fr; // used in savefileparser
-   protected BufferedReader br; // used in savefileparser
-   protected String currentLine; // used in savefileparser
-   protected ArrayList alTables, alFields, alConnectors; // used in savefileparser
-   protected EdgeTable[] tables; // used in edgefileparser & here
-   protected EdgeField[] fields; // used in edgefileparser & here
-   protected EdgeField tempField; // used in edgefileparser
-   protected EdgeConnector[] connectors; // used in edgefileparser & here
-   protected String style; // used in edgefileparser
-   protected String text; // used in edgefileparser
-   protected String tableName; // used in savefileparser
-   protected String fieldName; // used in savefileparser
-   protected boolean isEntity, isAttribute, isUnderlined = false; // used in edgefileparser
-   protected int numFigure; // used in savefileparser
+   protected File parseFile; 
+   protected FileReader fr; 
+   protected BufferedReader br;
+   protected String currentLine; 
+   protected ArrayList alTables, alFields, alConnectors;
+   protected EdgeTable[] tables; 
+   protected EdgeField[] fields; 
+   protected EdgeField tempField;
+   protected EdgeConnector[] connectors; 
+   protected boolean isEntity, isAttribute, isUnderlined = false;  
+   protected int numFigure;
 
-   protected int numConnector; // used in edgefileparser
+   protected int numConnector; 
 
-   protected int numFields; // used in savefileparser
-
-   protected int numTables; // used in savefileparser
-
-   private int numNativeRelatedFields;
-   protected int endPoint1, endPoint2; // used in edgefileparser
-   protected int numLine; // used in savefileparser
-   protected String endStyle1, endStyle2; // used in edgefileparser
+   protected int numLine; 
    public static final String EDGE_ID = "EDGE Diagram File"; // first line of .edg files should be this
    public static final String SAVE_ID = "EdgeConvert Save File"; // first line of save files should be this
    public static final String DELIM = "|";
