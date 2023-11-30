@@ -6,23 +6,26 @@ import org.apache.logging.log4j.Logger;
 
 public class EdgeFileParser extends EdgeConvertFileParser {
 
-   protected String style; 
-   protected String text;
-   protected int endPoint1, endPoint2; 
-   protected String endStyle1, endStyle2; 
-
     private static Logger logger = LogManager.getLogger(EdgeFileParser.class.getName());
 
     /*
      * Constructor 
      */
     public EdgeFileParser(File constructorFile){
-        super(constructorFile);
-        this.openFile(parseFile);
+        super();
+
+        this.openFile(constructorFile);
     }
 
-    public void parseEdgeFile() throws IOException {
+    public void parseEdgeFile(File parseFile) throws IOException {
         logger.info("parsing edge file");
+
+        // vars
+        String style;
+        String text;
+        int endPoint1, endPoint2; 
+        String endStyle1, endStyle2; 
+        boolean isEntity = false, isAttribute = false, isUnderlined = false; 
   
         while ((currentLine = br.readLine()) != null) {
            currentLine = currentLine.trim();
@@ -195,7 +198,7 @@ public class EdgeFileParser extends EdgeConvertFileParser {
               logger.debug("the file is an Edge Diagrammer file");
   
               logger.debug("parsing this file");
-              this.parseEdgeFile(); // parse the file
+              this.parseEdgeFile(inputFile); // parse the file
   
               logger.debug("closing this file");
               br.close();
@@ -204,7 +207,7 @@ public class EdgeFileParser extends EdgeConvertFileParser {
               this.makeArrays(); // convert ArrayList objects into arrays of the appropriate Class type
   
               logger.debug("identifying the nature of Connector endpoints");
-              this.resolveConnectors(); // Identify nature of Connector endpoints
+              this.resolveConnectors(inputFile); // Identify nature of Connector endpoints
            } else { // the file chosen is something else
                 logger.error("unrecognized file format");
                 JOptionPane.showMessageDialog(null, "Unrecognized file format");
@@ -222,7 +225,7 @@ public class EdgeFileParser extends EdgeConvertFileParser {
         } // catch IOException
      } // openFile()
 
-     private void resolveConnectors() { // Identify nature of Connector endpoints
+     private void resolveConnectors(File parseFile) { // Identify nature of Connector endpoints
         logger.info("identifying the nature of Connector endpoints");
   
         int endPoint1, endPoint2;

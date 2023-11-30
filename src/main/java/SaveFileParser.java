@@ -5,13 +5,7 @@ import javax.swing.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class SaveFileParser extends EdgeConvertFileParser {
-
-   protected String tableName; 
-   protected String fieldName;
-
-   protected int numFields; 
-   protected int numTables; 
+public class SaveFileParser extends EdgeConvertFileParser { 
 
     private static Logger logger = LogManager.getLogger(SaveFileParser.class.getName());
 
@@ -19,11 +13,11 @@ public class SaveFileParser extends EdgeConvertFileParser {
      * Constructor 
      */
     public SaveFileParser(File constructorFile){
-        super(constructorFile);
-        this.openFile(parseFile);
+        super();
+        this.openFile(constructorFile);
     }
 
-    public void parseSaveFile() throws IOException { // this method is unclear and confusing in places
+    public void parseSaveFile(File parseFile) throws IOException { // this method is unclear and confusing in places
         logger.info("parsing save file");
   
         StringTokenizer stTables, stNatFields, stRelFields, stNatRelFields, stField;
@@ -35,6 +29,11 @@ public class SaveFileParser extends EdgeConvertFileParser {
   
         while (currentLine.startsWith("Table: ")) {
            logger.debug("current line starts with 'Table'");
+
+           // vars 
+           String tableName;
+           int numFields; 
+           int numTables; 
   
            numFigure = Integer.parseInt(currentLine.substring(currentLine.indexOf(" ") + 1)); // get the Table number
            logger.debug("numFigure: " + numFigure);
@@ -90,6 +89,10 @@ public class SaveFileParser extends EdgeConvertFileParser {
         }
         while ((currentLine = br.readLine()) != null) {
            logger.debug("--- parsing next line ---");
+
+           //vars 
+           String fieldName;
+
            stField = new StringTokenizer(currentLine, DELIM);
            numFigure = Integer.parseInt(stField.nextToken());
            fieldName = stField.nextToken();
@@ -121,7 +124,7 @@ public class SaveFileParser extends EdgeConvertFileParser {
             if (currentLine.startsWith(SAVE_ID)) { // the file chosen is a Save file created by this application
                 logger.debug("the file is an Save file created by this application");        
                 logger.debug("parsing this file");
-                this.parseSaveFile(); // parse the fil      
+                this.parseSaveFile(inputFile); // parse the fil      
                 logger.debug("closing this file");
                 br.close();     
                 logger.debug("converting ArrayList objects into array of the appropriate Class type");

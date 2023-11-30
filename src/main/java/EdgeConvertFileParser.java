@@ -8,7 +8,7 @@ public abstract class EdgeConvertFileParser {
    private static Logger logger = LogManager.getLogger(EdgeConvertFileParser.class.getName());
 
    // private String filename = "test.edg";
-   protected File parseFile; 
+   // protected File parseFile; 
    protected FileReader fr; 
    protected BufferedReader br;
    protected String currentLine; 
@@ -16,8 +16,7 @@ public abstract class EdgeConvertFileParser {
    protected EdgeTable[] tables; 
    protected EdgeField[] fields; 
    protected EdgeField tempField;
-   protected EdgeConnector[] connectors; 
-   protected boolean isEntity, isAttribute, isUnderlined = false;  
+   protected EdgeConnector[] connectors;  
    protected int numFigure;
 
    protected int numConnector; 
@@ -27,7 +26,7 @@ public abstract class EdgeConvertFileParser {
    public static final String SAVE_ID = "EdgeConvert Save File"; // first line of save files should be this
    public static final String DELIM = "|";
 
-   public EdgeConvertFileParser(File constructorFile) {
+   public EdgeConvertFileParser() {
       logger.info("creating new EdgeConvertFileParser instance");
 
       numFigure = 0;
@@ -35,9 +34,6 @@ public abstract class EdgeConvertFileParser {
       alTables = new ArrayList();
       alFields = new ArrayList();
       alConnectors = new ArrayList();
-      isEntity = false;
-      isAttribute = false;
-      parseFile = constructorFile;
       numLine = 0;
    }
 
