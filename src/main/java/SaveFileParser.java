@@ -134,12 +134,12 @@ public class SaveFileParser extends EdgeConvertFileParser {
         catch (FileNotFoundException fnfe) {
            logger.error("cannot find " + inputFile.getName());
            // System.out.println("Cannot find \"" + inputFile.getName() + "\".");
-           System.exit(0);
+           JOptionPane.showMessageDialog(null,"File not found! Please try again.");
         } // catch FileNotFoundException
         catch (IOException ioe) {
            logger.error("something went wrong");
            // System.out.println(ioe);
-           System.exit(0);
+           JOptionPane.showMessageDialog(null,"Something went wrong! Exception: " + ioe);
         } // catch IOException
      } // openFile()
 }
