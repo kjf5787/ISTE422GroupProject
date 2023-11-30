@@ -71,10 +71,10 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                   }
                   logger.info("End of field.");
                   if(!(nativeFieldCount == nativeFields.length-1)){
-                    sb.append(",\r\n"); //end of field // TODO problem 
+                    sb.append(",\r\n"); 
                   }
                   else if(numPrimaryKey > 0 || numForeignKey > 0){
-                    sb.append(",\r\n"); //end of field // TODO problem 
+                    sb.append(",\r\n"); 
                   }
                }
                if (numPrimaryKey > 0) { //table has primary key(s)
@@ -86,13 +86,13 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                         sb.append(getField(nativeFields[i]).getName());
                         numPrimaryKey--;
                         if (numPrimaryKey > 0) {
-                           sb.append(", "); //TODO is this a problem?
+                           sb.append(", "); 
                         }
                      }
                   }
                   sb.append(")");
                   if (numForeignKey > 0) {
-                     sb.append(","); //TODO is this a problem?
+                     sb.append(","); 
                   }
                   sb.append("\r\n");
                }
@@ -108,7 +108,7 @@ public class CreateDDLMySQL extends EdgeConvertCreateDDL {
                         logger.debug("Foreign Key: " + getField(nativeFields[i]).getName());
                         logger.debug("References: " + getTable(getField(nativeFields[i]).getTableBound()).getName());
                         if (currentFK < numForeignKey) {
-                           sb.append(",\r\n"); //TODO is this a problem?
+                           sb.append(",\r\n"); 
                         }
                         currentFK++;
                      }
