@@ -35,7 +35,7 @@ public class EdgeTable {
 
    public void addRelatedTable(int relatedTable) {
       logger.debug("adding " + relatedTable + " to alRelatedTables");
-      alRelatedTables.add(new Integer(relatedTable));
+      alRelatedTables.add(Integer.valueOf(relatedTable));
    }
 
    public ArrayList getAlRelatedTables() {
@@ -72,7 +72,7 @@ public class EdgeTable {
    }
 
    public void addNativeField(int value) {
-      alNativeFields.add(new Integer(value));
+      alNativeFields.add(Integer.valueOf(value));
       
       logger.debug("adding " + value + " to alNativeFields");
    }
