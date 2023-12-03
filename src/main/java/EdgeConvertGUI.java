@@ -25,6 +25,7 @@ public class EdgeConvertGUI {
    private static JFileChooser jfcEdge, jfcGetClass, jfcOutputDir;
    private static ExampleFileFilter effEdge, effSave, effClass;
    private File parseFile, saveFile, outputFile, outputDir, outputDirOld;
+   private boolean pickingFile = true;
    private String truncatedFilename;
    private String sqlString;
    private String databaseName;
@@ -1025,6 +1026,7 @@ public class EdgeConvertGUI {
       returnVal = jfcOutputDir.showOpenDialog(null);
       
       if (returnVal == JFileChooser.CANCEL_OPTION) {
+         pickingFile = false;
          return;
       }
 
@@ -1276,7 +1278,8 @@ public class EdgeConvertGUI {
    class CreateDDLButtonListener implements ActionListener {
       public void actionPerformed(ActionEvent ae) {
          logger.info("Action performed in CreateDDLButtonListener");
-         while (outputDir == null) {
+         pickingFile = true;
+         while (outputDir == null && pickingFile) {
             logger.warn("Path that contains valid output definition files not selected.");
             JOptionPane.showMessageDialog(null, "You have not selected a path that contains valid output definition files yet.\nPlease select a path now.");
             setOutputDir();
