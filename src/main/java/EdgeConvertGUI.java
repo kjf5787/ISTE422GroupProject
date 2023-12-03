@@ -1101,7 +1101,7 @@ public class EdgeConvertGUI {
             if (resultClass.getSuperclass().getName().equals("EdgeConvertCreateDDL")) { //only interested in classes that extend EdgeConvertCreateDDL
                if (parseFile == null && saveFile == null) {
                   conResultClass = resultClass.getConstructor(paramTypesNull);
-                  objOutput = conResultClass.newInstance(null);
+                  objOutput = conResultClass.newInstance((Object)null);
                   } else {
                   conResultClass = resultClass.getConstructor(paramTypes);
                   objOutput = conResultClass.newInstance(args);
