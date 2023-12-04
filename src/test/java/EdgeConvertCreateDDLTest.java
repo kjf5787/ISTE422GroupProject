@@ -10,10 +10,12 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL {
     EdgeField[] fields;
     EdgeTable[] tables;
 
+
     public EdgeConvertCreateDDLTest(EdgeTable[] tables, EdgeField[] fields) {
         this.tables = tables;
         this.fields = fields;
     }
+
 
     public String getDatabaseName() {
         return null;
@@ -28,6 +30,7 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL {
     }
 
     public void createDDL() {
+  
     }
 
     @Before

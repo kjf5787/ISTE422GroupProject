@@ -25,6 +25,7 @@ public class EdgeConvertGUI {
    private static JFileChooser jfcEdge, jfcGetClass, jfcOutputDir;
    private static ExampleFileFilter effEdge, effSave, effClass;
    private File parseFile, saveFile, outputFile, outputDir, outputDirOld;
+   private boolean pickingFile = true;
    private String truncatedFilename;
    private String sqlString;
    private String databaseName;
@@ -1025,6 +1026,7 @@ public class EdgeConvertGUI {
       returnVal = jfcOutputDir.showOpenDialog(null);
       
       if (returnVal == JFileChooser.CANCEL_OPTION) {
+         pickingFile = false;
          return;
       }
 
@@ -1101,14 +1103,14 @@ public class EdgeConvertGUI {
             if (resultClass.getSuperclass().getName().equals("EdgeConvertCreateDDL")) { //only interested in classes that extend EdgeConvertCreateDDL
                if (parseFile == null && saveFile == null) {
                   conResultClass = resultClass.getConstructor(paramTypesNull);
-                  objOutput = conResultClass.newInstance(null);
+                  objOutput = conResultClass.newInstance((Object)null);
                   } else {
                   conResultClass = resultClass.getConstructor(paramTypes);
                   objOutput = conResultClass.newInstance(args);
                }
                alSubclasses.add(objOutput);
-               Method getProductName = resultClass.getMethod("getProductName", null);
-               String productName = (String)getProductName.invoke(objOutput, null);
+               Method getProductName = resultClass.getMethod("getProductName");
+               String productName = (String)getProductName.invoke(objOutput);
                alProductNames.add(productName);
             }
          }
@@ -1159,10 +1161,10 @@ public class EdgeConvertGUI {
 
       try {
          Class selectedSubclass = objSubclasses[selected].getClass();
-         Method getSQLString = selectedSubclass.getMethod("getSQLString", null);
-         Method getDatabaseName = selectedSubclass.getMethod("getDatabaseName", null);
-         strSQLString = (String)getSQLString.invoke(objSubclasses[selected], null);
-         databaseName = (String)getDatabaseName.invoke(objSubclasses[selected], null);
+         Method getSQLString = selectedSubclass.getMethod("getSQLString");
+         Method getDatabaseName = selectedSubclass.getMethod("getDatabaseName");
+         strSQLString = (String)getSQLString.invoke(objSubclasses[selected]);
+         databaseName = (String)getDatabaseName.invoke(objSubclasses[selected]);
       } catch (IllegalAccessException iae) {
          logger.error("Exception caught: {}", iae);
          iae.printStackTrace();
@@ -1276,7 +1278,8 @@ public class EdgeConvertGUI {
    class CreateDDLButtonListener implements ActionListener {
       public void actionPerformed(ActionEvent ae) {
          logger.info("Action performed in CreateDDLButtonListener");
-         while (outputDir == null) {
+         pickingFile = true;
+         while (outputDir == null && pickingFile) {
             logger.warn("Path that contains valid output definition files not selected.");
             JOptionPane.showMessageDialog(null, "You have not selected a path that contains valid output definition files yet.\nPlease select a path now.");
             setOutputDir();
