@@ -1,24 +1,25 @@
-package test.java;
+//package test.java;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
+public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL {
     EdgeConvertCreateDDLTest testObj1;
-
-
 
     public String getDatabaseName() {
         return null;
     }
-     public String getProductName() {
+
+    public String getProductName() {
         return null;
-     }
+    }
+
     public String getSQLString() {
         return null;
     }
+
     public void createDDL() {
         return null;
     }
@@ -28,11 +29,11 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
         this.testObj1 = new EdgeConvertCreateDDLExample();
     }
 
-    @Test 
+    @Test
     public void testInitialize() {
         testObj1.initialize();
 
-        assertEquals(testObj1.numBoundsTable, [tables.length]);
+        assertEquals(testObj1.numBoundsTable, tables.length);
 
     }
 
@@ -42,10 +43,10 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
         int numFigure = 4;
         for (int tIndex = 0; tIndex < tables.length; tIndex++) {
             if (numFigure == tables[tIndex].getNumFigure()) {
-               result =  tables[tIndex];
+                result = tables[tIndex];
             }
-         }
-        assertEquals("GetTable was found",result,testObj1.getTable(numFigure));
+        }
+        assertEquals("GetTable was found", result, testObj1.getTable(numFigure));
     }
 
     @Test
@@ -54,22 +55,23 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
         int numFigure = -1;
         for (int tIndex = 0; tIndex < tables.length; tIndex++) {
             if (numFigure == tables[tIndex].getNumFigure()) {
-               result =  tables[tIndex];
+                result = tables[tIndex];
             }
-         }
-        assertEquals("GetTable was not found",result,testObj1.getTable(numFigure));
+        }
+        assertEquals("GetTable was not found", result, testObj1.getTable(numFigure));
 
     }
+
     @Test
     public void testGetField() {
         EdgeField result;
         int numFigure = 4;
         for (int fIndex = 0; fIndex < fields.length; fIndex++) {
             if (numFigure == fields[fIndex].getNumFigure()) {
-               result = fields[fIndex];
+                result = fields[fIndex];
             }
         }
-        assertEquals("GetField was found",result,testObj1.getField(numFigure));
+        assertEquals("GetField was found", result, testObj1.getField(numFigure));
 
     }
 
