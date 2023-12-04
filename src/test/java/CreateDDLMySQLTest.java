@@ -13,10 +13,10 @@ public class CreateDDLMySQLTest {
 
     @Before
     public void setUp() throws Exception {
-        EdgeTable[] table1 = { new EdgeTable("table1"), new EdgeTable("table2") };
-        EdgeField[] field1 = { new EdgeField("field1"), new EdgeField("field2") };
-        EdgeTable[] table2 = { new EdgeTable("table1"), new EdgeTable("table2") };
-        EdgeField[] field2 = { new EdgeField("field1"), new EdgeField("field2") };
+        EdgeTable[] table1 = { new EdgeTable("1|table1"), new EdgeTable("1|table2") };
+        EdgeField[] field1 = { new EdgeField("1|field1"), new EdgeField("1|field2") };
+        EdgeTable[] table2 = { new EdgeTable("1|table3"), new EdgeTable("1|table4") };
+        EdgeField[] field2 = { new EdgeField("1|field3"), new EdgeField("1|field4") };
         testObj1 = new CreateDDLMySQL(table1, field1);
         testObj2 = new CreateDDLMySQL(table2, field2);
     }
