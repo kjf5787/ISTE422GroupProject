@@ -21,12 +21,12 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL {
     }
 
     public void createDDL() {
-        return null;
+        
     }
 
     @Before
     public void setUp() throws Exception {
-        this.testObj1 = new EdgeConvertCreateDDLExample();
+        this.testObj1 = new EdgeConvertCreateDDLTest();
     }
 
     @Test
