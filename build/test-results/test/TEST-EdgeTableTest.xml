@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EdgeTableTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-12-05T18:33:33" hostname="31edc4a14392" time="0.663">
+  <properties/>
+  <testcase name="testSetRelatedField" classname="EdgeTableTest" time="0.096"/>
+  <testcase name="testToString" classname="EdgeTableTest" time="0.14"/>
+  <testcase name="testMakeArrays" classname="EdgeTableTest" time="0.02"/>
+  <testcase name="testGetRelatedTablesArray" classname="EdgeTableTest" time="0.002"/>
+  <testcase name="testGetRelatedFieldsArray" classname="EdgeTableTest" time="0.031"/>
+  <testcase name="testGetName" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testMoveFileDown" classname="EdgeTableTest" time="0.016"/>
+  <testcase name="testGetNativeFieldsArray" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testAddNativeField" classname="EdgeTableTest" time="0.002"/>
+  <testcase name="testMoveFileUp" classname="EdgeTableTest" time="0.346"/>
+  <testcase name="testGetNumFigure" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testAddRelatedTable" classname="EdgeTableTest" time="0.001"/>
+  <system-out><![CDATA[06:33:33.316 INFO class:EdgeTable - creating new EdgeTable instance
+2 - relatedFields array: [I@55619f05
+06:33:33.410 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.521 INFO class:EdgeTable - convert the ArrayList into int[]
+2 - relatedFields array: [I@64f0ea93
+06:33:33.551 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.553 INFO class:EdgeTable - convert the ArrayList into int[]
+2 - relatedFields array: [I@4d0b8c17
+06:33:33.572 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.573 INFO class:EdgeTable - creating new EdgeTable instance
+2 - relatedFields array: [I@2e4c4357
+06:33:33.604 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.605 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.606 INFO class:EdgeTable - move the field closer to the end of the list
+2 - relatedFields array: [I@3682b872
+06:33:33.622 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.625 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.627 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.629 INFO class:EdgeTable - move the field closer to the beginning of the list
+2 - relatedFields array: [I@3b73523e
+06:33:33.974 INFO class:EdgeTable - creating new EdgeTable instance
+06:33:33.976 INFO class:EdgeTable - creating new EdgeTable instance
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

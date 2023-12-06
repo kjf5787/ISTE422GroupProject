@@ -17,13 +17,22 @@ public class CreateDDLMySQLTest {
         EdgeField[] field1 = { new EdgeField("1|field1"), new EdgeField("1|field2") };
         EdgeTable[] table2 = { new EdgeTable("1|table3"), new EdgeTable("1|table4") };
         EdgeField[] field2 = { new EdgeField("1|field3"), new EdgeField("1|field4") };
+
+        //iterate and call makeArrays on every table
+        for(int i = 0; i < table1.length-1; i++) {
+          table1[i].makeArrays();
+        }
+        for(int i = 0; i < table2.length-1; i++) {
+          table2[i].makeArrays();
+        }
+      
         testObj1 = new CreateDDLMySQL(table1, field1);
         testObj2 = new CreateDDLMySQL(table2, field2);
     }
 
     @Test
     public void testcreateDDL() {
-        // NumberFormatException at CreateDDLMySQLTest.java:16
+        //traverse and do table.makeArrays()?
         testObj1.createDDL();
         testObj2.createDDL();
 

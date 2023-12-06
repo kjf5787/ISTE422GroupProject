@@ -49,6 +49,7 @@ public class EdgeTable {
 
    public int[] getRelatedFieldsArray() {
       logger.debug("getting relatedFields array: " + relatedFields);
+     System.out.println("2 - relatedFields array: " + relatedFields);
       return relatedFields;
    }
 

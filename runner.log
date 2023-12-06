@@ -1,1174 +1,554 @@
-2023-10-22 23:27:36.214 [main] INFO  RunEdgeConvert - Starting application class RunEdgeConvert
-2023-10-22 23:27:36.225 [main] INFO  EdgeConvertGUI - Creating new EdgeConvertGUI instance
-2023-10-22 23:27:36.226 [main] INFO  EdgeConvertGUI - Setting native look and feel
-2023-10-22 23:27:36.607 [main] INFO  EdgeConvertGUI - Creating DTScreen
-2023-10-22 23:27:36.607 [main] DEBUG EdgeConvertGUI - Creating JFrame jfDT
-2023-10-22 23:27:36.809 [main] DEBUG EdgeConvertGUI - Creating menu bar jmbDTMenuBar for DTScreen
-2023-10-22 23:27:36.814 [main] DEBUG EdgeConvertGUI - Creating file menu bar jmDTFile for DTScreen
-2023-10-22 23:27:36.837 [main] DEBUG EdgeConvertGUI - Creating options menu bar jmDTFile for DTScreen
-2023-10-22 23:27:36.838 [main] DEBUG EdgeConvertGUI - Creating help menu bar jmDTHelp for DTScreen
-2023-10-22 23:27:37.615 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTBottom
-2023-10-22 23:27:37.616 [main] DEBUG EdgeConvertGUI - Making CreateDDL button
-2023-10-22 23:27:37.617 [main] DEBUG EdgeConvertGUI - Making Define Relations button
-2023-10-22 23:27:37.617 [main] DEBUG EdgeConvertGUI - Adding action listener to Define Relations button
-2023-10-22 23:27:37.619 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDTTablesAll
-2023-10-22 23:27:37.620 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDTFieldsTablesAll
-2023-10-22 23:27:37.620 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTMove
-2023-10-22 23:27:37.621 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jbDTMoveUp
-2023-10-22 23:27:37.621 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDTMoveDown
-2023-10-22 23:27:37.621 [main] DEBUG EdgeConvertGUI - Creating JScrollPane jspDTTablesAll
-2023-10-22 23:27:37.622 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTCenter1
-2023-10-22 23:27:37.623 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDTCenter2
-2023-10-22 23:27:37.624 [main] DEBUG EdgeField - getting strDataType
-2023-10-22 23:27:37.627 [main] DEBUG EdgeConvertGUI - Creating JCheckBox jcheckDTDisallowNull
-2023-10-22 23:27:37.628 [main] DEBUG EdgeConvertGUI - Adding item listener to jcheckDTDisallowNull
-2023-10-22 23:27:37.629 [main] DEBUG EdgeConvertGUI - Creating JCheckBox jcheckDTPrimaryKey
-2023-10-22 23:27:37.629 [main] DEBUG EdgeConvertGUI - Adding item listener to jcheckDTPrimaryKey
-2023-10-22 23:27:37.629 [main] DEBUG EdgeConvertGUI - Creating JButton jbDTDefaultValue
-2023-10-22 23:27:37.630 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDTDefaultValue
-2023-10-22 23:27:37.631 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDTVarchar
-2023-10-22 23:27:37.633 [main] DEBUG EdgeConvertGUI - Creating new JPanel jpDTCenterRight2
-2023-10-22 23:27:37.639 [main] INFO  EdgeConvertGUI - Creating DRScreen
-2023-10-22 23:27:37.731 [main] DEBUG EdgeConvertGUI - Setting up menubars and menus for DRScreen
-2023-10-22 23:27:37.736 [main] DEBUG EdgeConvertGUI - Creating Options JMenu jmDROptions for DRScreen
-2023-10-22 23:27:37.737 [main] DEBUG EdgeConvertGUI - Creating Help JMenu jmDRHelp for DRScreen
-2023-10-22 23:27:37.739 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter
-2023-10-22 23:27:37.740 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter1
-2023-10-22 23:27:37.740 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter2
-2023-10-22 23:27:37.740 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter3
-2023-10-22 23:27:37.741 [main] DEBUG EdgeConvertGUI - Creating JPanel jpDRCenter4
-2023-10-22 23:27:37.741 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRTablesRelations
-2023-10-22 23:27:37.742 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRFieldsTablesRelations
-2023-10-22 23:27:37.745 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRTablesRelatedTo
-2023-10-22 23:27:37.746 [main] DEBUG EdgeConvertGUI - Adding list selection listener to jlDRFieldsTablesRelatedTo
-2023-10-22 23:27:37.747 [main] DEBUG EdgeConvertGUI - Adding scroll panes and jlabels to jpDRCenter1-4
-2023-10-22 23:27:37.749 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDRDefineTables
-2023-10-22 23:27:37.749 [main] DEBUG EdgeConvertGUI - Adding action listener to jbDRBindRelation
-2023-10-22 23:27:40.051 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Action performed in EdgeMenuListener
-2023-10-22 23:27:44.641 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Loading edg file
-2023-10-22 23:27:44.643 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - creating new EdgeConvertFileParser instance
-2023-10-22 23:27:44.644 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - opening file Courses.edg
-2023-10-22 23:27:44.646 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - the file is an Edge Diagrammer file
-2023-10-22 23:27:44.646 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - parsing this file
-2023-10-22 23:27:44.646 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - parsing edge file
-2023-10-22 23:27:44.649 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.649 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 1
-2023-10-22 23:27:44.649 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Entity
-2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Entity entry
-2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "STUDENT"
-2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: STUDENT
-2023-10-22 23:27:44.650 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: STUDENT
-2023-10-22 23:27:44.651 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.651 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 416,480,672,544
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.652 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.653 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.653 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.653 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER entity"
-2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.654 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.655 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.656 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.656 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Entity
-2023-10-22 23:27:44.656 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - checking to see if STUDENT exists
-2023-10-22 23:27:44.657 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - STUDENT does not exist
-2023-10-22 23:27:44.657 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.657 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.662 [AWT-EventQueue-0] INFO  EdgeTable - creating new EdgeTable instance
-2023-10-22 23:27:44.663 [AWT-EventQueue-0] DEBUG EdgeTable - creating new EdgeTable instance using 1|STUDENT
-2023-10-22 23:27:44.663 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 2
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Entity
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Entity entry
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "FACULTY"
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FACULTY
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FACULTY
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.664 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 992,704,1248,768
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.665 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER entity"
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.666 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.667 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.667 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Entity
-2023-10-22 23:27:44.667 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - checking to see if FACULTY exists
-2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
-2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - FACULTY does not exist
-2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.668 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.668 [AWT-EventQueue-0] INFO  EdgeTable - creating new EdgeTable instance
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeTable - creating new EdgeTable instance using 2|FACULTY
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 3
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "Grade"
-2023-10-22 23:27:44.669 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Grade
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Grade
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 736,320,992,384
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.670 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.671 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.672 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.673 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.674 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.674 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 3|Grade
-2023-10-22 23:27:44.675 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.675 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.675 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 4
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "CourseName"
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: CourseName
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: CourseName
-2023-10-22 23:27:44.676 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 1024,224,1280,288
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.677 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.678 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.679 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.679 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.679 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.679 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 4|CourseName
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.680 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 5
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "Number"
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Number
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: Number
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 1248,320,1504,384
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.681 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.682 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.683 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 5|Number
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.684 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 6
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "FacSSN"
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacSSN
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacSSN
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 704,832,960,896
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.685 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.686 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.687 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 6|FacSSN
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.688 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 7
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "StudentSSN"
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentSSN
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentSSN
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 128,576,384,640
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.689 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.690 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 7|StudentSSN
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.691 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 8
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "StudentName"
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentName
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: StudentName
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 160,384,416,448
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.692 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.693 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 8|StudentName
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.694 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 9
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.695 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.696 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.703 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 10
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.704 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 11
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Attribute
-2023-10-22 23:27:44.705 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Attribute entry
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "FacultyName"
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacultyName
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: FacultyName
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 640,672,896,736
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.706 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER attribute"
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.707 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Attribute
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] INFO  EdgeField - creating new EdgeField instance
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeField - creating new EdgeField instance using 11|FacultyName
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeField - setting defaults for EdgeField
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - setting this new EdgeTable object as the primary key
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeField - setting isPrimaryKey to false
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.708 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 12
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.709 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 13
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - style parameters: Entity
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Entity entry
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Text "COURSES"
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: COURSES
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - text: COURSES
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Bounds 992,480,1248,544
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColor 255,255,255
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: BorderWidth 2
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.710 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TextFormat 0x0022
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Behavior 0x000003F001024E12
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: Symbol "ER entity"
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeSize 8
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: TypeFace "Arial"
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillType 1
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: FillColorSolid 255,255,255
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: }
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - end of Figure entry
-2023-10-22 23:27:44.711 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - this element is an Entity
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - checking to see if COURSES exists
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - COURSES does not exist
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - creating new EdgeTable object
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeTable object to alTables ArrayList
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] INFO  EdgeTable - creating new EdgeTable instance
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeTable - creating new EdgeTable instance using 13|COURSES
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - reseting isEntity, isAttribute and isUnderlined flags
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 14
-2023-10-22 23:27:44.712 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER mand many
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER opt many
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 15
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
-2023-10-22 23:27:44.713 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 16
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER mand many
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER opt many
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.714 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 17
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 18
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Figure entry
-2023-10-22 23:27:44.715 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 19
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Style entry
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 20
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER single
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: ER opt many
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.716 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 21
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.717 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 22
-2023-10-22 23:27:44.718 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.719 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 23
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.720 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - starting Connector entry
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - Figure number: 24
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - currentLine: { - this should be '{'
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - End1 parameter: null
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.721 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - advance to end of record
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding new EdgeConnector to alConnectors
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] INFO  EdgeConnector - Creating new EdgeConnector instance
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - closing this file
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting ArrayList objects into array of the appropriate Class type
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - converting ArrayList objects into arrays of appropriate Class type
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting alTables to array
-2023-10-22 23:27:44.722 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting alFields to array
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - converting alConnectors to array
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - identifying the nature of Connector endpoints
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] INFO  EdgeConvertFileParser - identifying the nature of Connector endpoints
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.723 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 4
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.724 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index 4
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.725 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint1 is the table- adding to table's field list
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeTable - adding 7 to alNativeFields
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 1
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.726 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 5
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index 5
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.727 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint1 is the table- adding to table's field list
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeTable - adding 8 to alNativeFields
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 1
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.728 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 6
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.729 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index 6
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
-2023-10-22 23:27:44.730 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint1 is the table- adding to table's field list
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeTable - adding 11 to alNativeFields
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 2
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.731 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index -1
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.732 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.733 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.734 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.735 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
-2023-10-22 23:27:44.735 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index -1
-2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.735 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.736 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Table to true
-2023-10-22 23:27:44.737 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in tables array in index -1
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index -1
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Table
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - both endpoints are tables
-2023-10-22 23:27:44.738 [AWT-EventQueue-0] INFO  EdgeConnector - Get endStyle1
-2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - adding 13 to alRelatedTables
-2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding 13 each table's list of related tables
-2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.739 [AWT-EventQueue-0] DEBUG EdgeTable - adding 2 to alRelatedTables
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - adding 2 each table's list of related tables
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Field to true
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in fields array in index 0
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.740 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint2 is the table- adding to table's field list
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - adding 3 to alNativeFields
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 13
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.741 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index -1
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.742 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Field to true
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in fields array in index 2
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.743 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index 2
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Field
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint2 is the table- adding to table's field list
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - adding 5 to alNativeFields
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 13
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint1
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] INFO  EdgeConnector - Get endPoint2
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search field array for endpoints
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.744 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP1Field to true
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint1 in fields array in index 3
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.745 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - search tables array for endpoints
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 1
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Set isEP2Table to true
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - found endPoint2 in tables array in index 3
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 13
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Field
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP2Field
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeField - getting tableID
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - field has not been assigned to a table yet
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] INFO  EdgeConnector - Get isEP1Table
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - endpoint2 is the table- adding to table's field list
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:27:44.746 [AWT-EventQueue-0] DEBUG EdgeTable - adding 6 to alNativeFields
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - getting numFigure: 2
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeField - setting tableID to 2
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - getting EdgeTable: [LEdgeTable;@514d9360
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] INFO  EdgeTable - convert the ArrayList into int[]
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - nativeFields array: [I@f1c1ca6
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedTables array: [I@f1c1ca6
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedFields array: [I@f1c1ca6
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] INFO  EdgeTable - convert the ArrayList into int[]
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - nativeFields array: [I@c4e1486
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedTables array: [I@c4e1486
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] DEBUG EdgeTable - relatedFields array: [I@c4e1486
-2023-10-22 23:27:44.747 [AWT-EventQueue-0] INFO  EdgeTable - convert the ArrayList into int[]
-2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeTable - nativeFields array: [I@78312a0e
-2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeTable - relatedTables array: [I@78312a0e
-2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeTable - relatedFields array: [I@78312a0e
-2023-10-22 23:27:44.748 [AWT-EventQueue-0] DEBUG EdgeConvertFileParser - getting EdgeField: [LEdgeField;@2a4cbdca
-2023-10-22 23:27:44.748 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Populate lists
-2023-10-22 23:27:44.749 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Disable controls
-2023-10-22 23:27:44.749 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Depopulate lists
-2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
-2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedTables array: [I@274a57be
-2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
-2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedTables array: [I@3101a604
-2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
-2023-10-22 23:27:44.750 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedTables array: [I@7e6cef03
-2023-10-22 23:28:04.145 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Set current DT Table
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@78312a0e
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.147 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.148 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.148 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:04.148 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Disable controls
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Set current DT Table
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@78312a0e
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get field name
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:04.168 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:04.169 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Disable controls
-2023-10-22 23:28:05.555 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Action performed in CreateDDLButtonListener
-2023-10-22 23:28:05.555 [AWT-EventQueue-0] WARN  EdgeConvertGUI - Path that contains valid output definition files not selected.
-2023-10-22 23:28:06.770 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Set output dir
-2023-10-22 23:28:12.859 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get output classes
-2023-10-22 23:28:12.864 [AWT-EventQueue-0] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@514d9360 and [LEdgeField;@2a4cbdca
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Initializing edgeConvert...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@4269d6f
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@53eb47c3
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@216b9f13
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:12.865 [AWT-EventQueue-0] INFO  EdgeField - initialize complete
-2023-10-22 23:28:12.866 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting product name: MySQL
-2023-10-22 23:28:12.866 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Display product names
-2023-10-22 23:28:14.196 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get output classes
-2023-10-22 23:28:14.196 [AWT-EventQueue-0] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@514d9360 and [LEdgeField;@2a4cbdca
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Initializing edgeConvert...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@4269d6f
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@53eb47c3
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through tables...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@216b9f13
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG EdgeField - Stepping through fields...
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] INFO  EdgeField - initialize complete
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting product name: MySQL
-2023-10-22 23:28:14.197 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Get SQL statements
-2023-10-22 23:28:15.431 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Setting readSuccess
-2023-10-22 23:28:16.577 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating database...
-2023-10-22 23:28:16.578 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating table...
-2023-10-22 23:28:16.578 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: STUDENT
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@f1c1ca6
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@4269d6f
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 7
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
-2023-10-22 23:28:16.579 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 8
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
-2023-10-22 23:28:16.580 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of table...
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating table...
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: FACULTY
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@c4e1486
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@53eb47c3
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 11
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
-2023-10-22 23:28:16.581 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 6
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of table...
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Creating table...
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeTable - getting name: COURSES
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeTable - getting nativeFields array: [I@78312a0e
-2023-10-22 23:28:16.582 [AWT-EventQueue-0] DEBUG EdgeTable - getting relatedFields array: [I@216b9f13
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 3
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting fields that match 5
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting numFigure
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting name
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.583 [AWT-EventQueue-0] DEBUG EdgeField - getting dataType
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Appending varchar length...
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting varcharValue
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting disallowNull
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting defaultValue
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting whether isPrimaryKey
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG EdgeField - getting fieldBound
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of field.
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] INFO  CreateDDLMySQL - End of table...
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting SQL String: CREATE DATABASE MySQLDB;
-USE MySQLDB;
-CREATE TABLE STUDENT (
-	StudentSSN VARCHAR(1),
-	StudentName VARCHAR(1),
-);
-
-CREATE TABLE FACULTY (
-	FacultyName VARCHAR(1),
-	FacSSN VARCHAR(1),
-);
-
-CREATE TABLE COURSES (
-	Grade VARCHAR(1),
-	Number VARCHAR(1),
-);
-
-
-2023-10-22 23:28:16.584 [AWT-EventQueue-0] DEBUG CreateDDLMySQL - Getting database name: MySQLDB
-2023-10-22 23:28:16.585 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Write SQL
-2023-10-22 23:28:19.924 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Saving SQL file
-2023-10-22 23:28:26.306 [AWT-EventQueue-0] INFO  EdgeConvertGUI - Window closing in EdgeWindowListener
+2023-12-05 18:33:29.019 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:29.030 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table1
+2023-12-05 18:33:29.103 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:29.117 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table2
+2023-12-05 18:33:29.118 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:29.122 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field1
+2023-12-05 18:33:29.129 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:29.130 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:29.133 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field2
+2023-12-05 18:33:29.133 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:29.134 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:29.134 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table3
+2023-12-05 18:33:29.134 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:29.136 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table4
+2023-12-05 18:33:29.136 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:29.137 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field3
+2023-12-05 18:33:29.137 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:29.137 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:29.203 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field4
+2023-12-05 18:33:29.204 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:29.204 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:29.240 [Test worker] DEBUG EdgeTable - nativeFields array: [I@760a65e9
+2023-12-05 18:33:29.593 [Test worker] DEBUG EdgeTable - relatedTables array: [I@762f3ed5
+2023-12-05 18:33:29.594 [Test worker] DEBUG EdgeTable - relatedFields array: [I@6c025d5e
+2023-12-05 18:33:29.594 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:29.595 [Test worker] DEBUG EdgeTable - nativeFields array: [I@3292d781
+2023-12-05 18:33:29.595 [Test worker] DEBUG EdgeTable - relatedTables array: [I@1792c917
+2023-12-05 18:33:29.595 [Test worker] DEBUG EdgeTable - relatedFields array: [I@184494a6
+2023-12-05 18:33:30.036 [Test worker] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@4990b164 and [LEdgeField;@1836a1c7
+2023-12-05 18:33:30.106 [Test worker] DEBUG EdgeField - Initializing edgeConvert...
+2023-12-05 18:33:30.115 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.116 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@6c025d5e
+2023-12-05 18:33:30.191 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.194 [Test worker] DEBUG EdgeTable - getting relatedFields array: null
+2023-12-05 18:33:30.242 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.251 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table1
+2023-12-05 18:33:30.252 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.257 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table2
+2023-12-05 18:33:30.259 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.260 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field1
+2023-12-05 18:33:30.260 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.261 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.262 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field2
+2023-12-05 18:33:30.269 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.270 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.271 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table3
+2023-12-05 18:33:30.271 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.273 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table4
+2023-12-05 18:33:30.273 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.275 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field3
+2023-12-05 18:33:30.275 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.275 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.276 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field4
+2023-12-05 18:33:30.277 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.280 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:30.284 [Test worker] DEBUG EdgeTable - nativeFields array: [I@3dc4e1f4
+2023-12-05 18:33:30.285 [Test worker] DEBUG EdgeTable - relatedTables array: [I@f610b1f
+2023-12-05 18:33:30.285 [Test worker] DEBUG EdgeTable - relatedFields array: [I@651369cd
+2023-12-05 18:33:30.285 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:30.287 [Test worker] DEBUG EdgeTable - nativeFields array: [I@7f4d731d
+2023-12-05 18:33:30.287 [Test worker] DEBUG EdgeTable - relatedTables array: [I@659cf641
+2023-12-05 18:33:30.287 [Test worker] DEBUG EdgeTable - relatedFields array: [I@62a2301e
+2023-12-05 18:33:30.288 [Test worker] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@1c816086 and [LEdgeField;@8402d90
+2023-12-05 18:33:30.306 [Test worker] DEBUG EdgeField - Initializing edgeConvert...
+2023-12-05 18:33:30.306 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.327 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@651369cd
+2023-12-05 18:33:30.329 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.334 [Test worker] DEBUG EdgeTable - getting relatedFields array: null
+2023-12-05 18:33:30.359 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.413 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table1
+2023-12-05 18:33:30.420 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.422 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table2
+2023-12-05 18:33:30.456 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.458 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field1
+2023-12-05 18:33:30.474 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.507 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.514 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field2
+2023-12-05 18:33:30.515 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.517 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.520 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table3
+2023-12-05 18:33:30.520 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.523 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table4
+2023-12-05 18:33:30.523 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.536 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field3
+2023-12-05 18:33:30.536 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.545 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.552 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field4
+2023-12-05 18:33:30.552 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.573 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:30.607 [Test worker] DEBUG EdgeTable - nativeFields array: [I@aecfc27
+2023-12-05 18:33:30.613 [Test worker] DEBUG EdgeTable - relatedTables array: [I@79bd0fa4
+2023-12-05 18:33:30.614 [Test worker] DEBUG EdgeTable - relatedFields array: [I@6e2fc545
+2023-12-05 18:33:30.617 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:30.621 [Test worker] DEBUG EdgeTable - nativeFields array: [I@670a59bd
+2023-12-05 18:33:30.623 [Test worker] DEBUG EdgeTable - relatedTables array: [I@aea8cbf
+2023-12-05 18:33:30.625 [Test worker] DEBUG EdgeTable - relatedFields array: [I@1b3b6269
+2023-12-05 18:33:30.626 [Test worker] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@bae89a6 and [LEdgeField;@3edceedf
+2023-12-05 18:33:30.629 [Test worker] DEBUG EdgeField - Initializing edgeConvert...
+2023-12-05 18:33:30.629 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.630 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@6e2fc545
+2023-12-05 18:33:30.632 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.633 [Test worker] DEBUG EdgeTable - getting relatedFields array: null
+2023-12-05 18:33:30.742 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.804 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table1
+2023-12-05 18:33:30.805 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.809 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table2
+2023-12-05 18:33:30.809 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.812 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field1
+2023-12-05 18:33:30.812 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.812 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.815 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field2
+2023-12-05 18:33:30.818 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.818 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.820 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table3
+2023-12-05 18:33:30.820 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.821 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table4
+2023-12-05 18:33:30.822 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.824 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field3
+2023-12-05 18:33:30.824 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.824 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.826 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field4
+2023-12-05 18:33:30.826 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.826 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:30.828 [Test worker] DEBUG EdgeTable - nativeFields array: [I@600d12cf
+2023-12-05 18:33:30.828 [Test worker] DEBUG EdgeTable - relatedTables array: [I@20e51c8d
+2023-12-05 18:33:30.828 [Test worker] DEBUG EdgeTable - relatedFields array: [I@5ff9528e
+2023-12-05 18:33:30.828 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:30.830 [Test worker] DEBUG EdgeTable - nativeFields array: [I@68ae5b8
+2023-12-05 18:33:30.831 [Test worker] DEBUG EdgeTable - relatedTables array: [I@e1904cc
+2023-12-05 18:33:30.831 [Test worker] DEBUG EdgeTable - relatedFields array: [I@69060f6
+2023-12-05 18:33:30.831 [Test worker] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@13682f88 and [LEdgeField;@421ebf78
+2023-12-05 18:33:30.833 [Test worker] DEBUG EdgeField - Initializing edgeConvert...
+2023-12-05 18:33:30.833 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.833 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@5ff9528e
+2023-12-05 18:33:30.839 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:30.839 [Test worker] DEBUG EdgeTable - getting relatedFields array: null
+2023-12-05 18:33:30.922 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.925 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table1
+2023-12-05 18:33:30.926 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.927 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table2
+2023-12-05 18:33:30.928 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.931 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field1
+2023-12-05 18:33:30.938 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.938 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.939 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field2
+2023-12-05 18:33:30.940 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.940 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.940 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table3
+2023-12-05 18:33:30.941 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:30.941 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table4
+2023-12-05 18:33:30.941 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.942 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field3
+2023-12-05 18:33:30.943 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:30.943 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:30.943 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field4
+2023-12-05 18:33:31.002 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.003 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:31.004 [Test worker] DEBUG EdgeTable - nativeFields array: [I@467ec93
+2023-12-05 18:33:31.004 [Test worker] DEBUG EdgeTable - relatedTables array: [I@175ab39
+2023-12-05 18:33:31.005 [Test worker] DEBUG EdgeTable - relatedFields array: [I@53b3c0f0
+2023-12-05 18:33:31.006 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:31.007 [Test worker] DEBUG EdgeTable - nativeFields array: [I@64e15081
+2023-12-05 18:33:31.007 [Test worker] DEBUG EdgeTable - relatedTables array: [I@5fd93bfa
+2023-12-05 18:33:31.009 [Test worker] DEBUG EdgeTable - relatedFields array: [I@73d96f5b
+2023-12-05 18:33:31.009 [Test worker] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@3ea08590 and [LEdgeField;@502bbf9d
+2023-12-05 18:33:31.013 [Test worker] DEBUG EdgeField - Initializing edgeConvert...
+2023-12-05 18:33:31.013 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:31.013 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@53b3c0f0
+2023-12-05 18:33:31.015 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:31.016 [Test worker] DEBUG EdgeTable - getting relatedFields array: null
+2023-12-05 18:33:31.107 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:31.108 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table1
+2023-12-05 18:33:31.108 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:31.109 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table2
+2023-12-05 18:33:31.109 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.110 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field1
+2023-12-05 18:33:31.126 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.127 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.128 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field2
+2023-12-05 18:33:31.129 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.129 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:31.131 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table3
+2023-12-05 18:33:31.131 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:31.133 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|table4
+2023-12-05 18:33:31.134 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.135 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field3
+2023-12-05 18:33:31.136 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.136 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.137 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|field4
+2023-12-05 18:33:31.138 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.138 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:31.138 [Test worker] DEBUG EdgeTable - nativeFields array: [I@463b4889
+2023-12-05 18:33:31.138 [Test worker] DEBUG EdgeTable - relatedTables array: [I@7ea044a2
+2023-12-05 18:33:31.139 [Test worker] DEBUG EdgeTable - relatedFields array: [I@4416d2e3
+2023-12-05 18:33:31.139 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:31.139 [Test worker] DEBUG EdgeTable - nativeFields array: [I@494c4aab
+2023-12-05 18:33:31.139 [Test worker] DEBUG EdgeTable - relatedTables array: [I@552f3c0b
+2023-12-05 18:33:31.139 [Test worker] DEBUG EdgeTable - relatedFields array: [I@2956e758
+2023-12-05 18:33:31.139 [Test worker] INFO  EdgeField - creating new DDL instance using [LEdgeTable;@5ba5b95b and [LEdgeField;@7097a996
+2023-12-05 18:33:31.140 [Test worker] DEBUG EdgeField - Initializing edgeConvert...
+2023-12-05 18:33:31.203 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:31.210 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@4416d2e3
+2023-12-05 18:33:31.214 [Test worker] DEBUG EdgeField - Stepping through tables...
+2023-12-05 18:33:31.216 [Test worker] DEBUG EdgeTable - getting relatedFields array: null
+2023-12-05 18:33:31.237 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.411 [Test worker] INFO  EdgeConnector - Get endPoint1
+2023-12-05 18:33:31.414 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.415 [Test worker] INFO  EdgeConnector - Get endPoint2
+2023-12-05 18:33:31.417 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.418 [Test worker] INFO  EdgeConnector - Get endStyle1
+2023-12-05 18:33:31.420 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.421 [Test worker] INFO  EdgeConnector - Get endStyle2
+2023-12-05 18:33:31.508 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.510 [Test worker] INFO  EdgeConnector - Get numConnector
+2023-12-05 18:33:31.522 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.531 [Test worker] INFO  EdgeConnector - Get isEP1Field
+2023-12-05 18:33:31.535 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.610 [Test worker] INFO  EdgeConnector - Get isEP1Table
+2023-12-05 18:33:31.618 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.620 [Test worker] INFO  EdgeConnector - Get isEP2Field
+2023-12-05 18:33:31.625 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.626 [Test worker] INFO  EdgeConnector - Get isEP2Table
+2023-12-05 18:33:31.719 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.741 [Test worker] INFO  EdgeConnector - Set isEP1Field to false
+2023-12-05 18:33:31.750 [Test worker] INFO  EdgeConnector - Get isEP1Field
+2023-12-05 18:33:31.790 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.825 [Test worker] INFO  EdgeConnector - Set isEP1Table to false
+2023-12-05 18:33:31.828 [Test worker] INFO  EdgeConnector - Get isEP1Table
+2023-12-05 18:33:31.830 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.831 [Test worker] INFO  EdgeConnector - Set isEP2Field to false
+2023-12-05 18:33:31.831 [Test worker] INFO  EdgeConnector - Get isEP2Field
+2023-12-05 18:33:31.837 [Test worker] INFO  EdgeConnector - Creating new EdgeConnector instance
+2023-12-05 18:33:31.837 [Test worker] INFO  EdgeConnector - Set isEP2Table to false
+2023-12-05 18:33:31.837 [Test worker] INFO  EdgeConnector - Get isEP2Table
+2023-12-05 18:33:31.915 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.917 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:31.917 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.917 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:31.920 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.923 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:31.923 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.923 [Test worker] DEBUG EdgeField - getting whether isPrimaryKey
+2023-12-05 18:33:31.927 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:31.927 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:31.928 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:31.928 [Test worker] DEBUG EdgeField - getting strDataType
+2023-12-05 18:33:31.937 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.003 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.003 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.004 [Test worker] DEBUG EdgeField - setting tableBound to 10
+2023-12-05 18:33:32.004 [Test worker] DEBUG EdgeField - setting tableBound to 8
+2023-12-05 18:33:32.009 [Test worker] DEBUG EdgeField - setting tableBound to 3
+2023-12-05 18:33:32.010 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:32.017 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.020 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.066 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.068 [Test worker] DEBUG EdgeField - setting varcharValue to 3
+2023-12-05 18:33:32.073 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:32.077 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.077 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.077 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.078 [Test worker] DEBUG EdgeField - setting fieldBound to 3
+2023-12-05 18:33:32.102 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:32.104 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.104 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.105 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.105 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:32.105 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.106 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.107 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.107 [Test worker] DEBUG EdgeField - setting dataType to 3
+2023-12-05 18:33:32.108 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:32.109 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.115 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.122 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.123 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:32.148 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.208 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.208 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.211 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.237 [Test worker] DEBUG EdgeField - creating new EdgeField instance using One|MyField
+2023-12-05 18:33:32.243 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.248 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.249 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.251 [Test worker] DEBUG EdgeField - getting numFigure
+2023-12-05 18:33:32.252 [Test worker] DEBUG EdgeField - getting name
+2023-12-05 18:33:32.252 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:32.254 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:32.254 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:32.254 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:32.254 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:32.254 [Test worker] DEBUG EdgeField - getting whether isPrimaryKey
+2023-12-05 18:33:32.255 [Test worker] DEBUG EdgeField - getting disallowNull
+2023-12-05 18:33:32.255 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:32.541 [Test worker] DEBUG EdgeField - printing tostring
+2023-12-05 18:33:32.697 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.697 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.697 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.698 [Test worker] DEBUG EdgeField - setting isPrimaryKey to true
+2023-12-05 18:33:32.698 [Test worker] DEBUG EdgeField - getting whether isPrimaryKey
+2023-12-05 18:33:32.698 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - setting dataType to 2
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - setting dataType to 1
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - setting dataType to 3
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:32.699 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.699 [Test worker] DEBUG EdgeField - setting isPrimaryKey to true
+2023-12-05 18:33:32.700 [Test worker] DEBUG EdgeField - setting isPrimaryKey to false
+2023-12-05 18:33:32.700 [Test worker] DEBUG EdgeField - setting isPrimaryKey to true
+2023-12-05 18:33:32.714 [Test worker] DEBUG EdgeField - getting whether isPrimaryKey
+2023-12-05 18:33:32.715 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.715 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.715 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.715 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.716 [Test worker] DEBUG EdgeField - creating new EdgeField instance using MyField
+2023-12-05 18:33:32.727 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.727 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.727 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.728 [Test worker] DEBUG EdgeField - setting dataType to 9
+2023-12-05 18:33:32.728 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:32.728 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.728 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.728 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.729 [Test worker] DEBUG EdgeField - setting defaultValue to null
+2023-12-05 18:33:32.729 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:32.729 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.729 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.729 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.729 [Test worker] DEBUG EdgeField - setting varcharValue to -5
+2023-12-05 18:33:32.729 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:32.730 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.730 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.730 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.730 [Test worker] DEBUG EdgeField - getting name
+2023-12-05 18:33:32.754 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.755 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.755 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.755 [Test worker] DEBUG EdgeField - setting defaultValue to string1
+2023-12-05 18:33:32.755 [Test worker] DEBUG EdgeField - setting defaultValue to string2
+2023-12-05 18:33:32.755 [Test worker] DEBUG EdgeField - setting defaultValue to string
+2023-12-05 18:33:32.755 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:32.756 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.756 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.756 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.756 [Test worker] DEBUG EdgeField - setting tableID to -5
+2023-12-05 18:33:32.756 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:32.757 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - setting tableBound to -5
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:32.757 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.757 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:32.758 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.758 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.758 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.840 [Test worker] DEBUG EdgeField - setting disallowNull to true
+2023-12-05 18:33:32.841 [Test worker] DEBUG EdgeField - setting disallowNull to false
+2023-12-05 18:33:32.841 [Test worker] DEBUG EdgeField - setting disallowNull to true
+2023-12-05 18:33:32.841 [Test worker] DEBUG EdgeField - getting disallowNull
+2023-12-05 18:33:32.904 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.915 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.915 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.915 [Test worker] DEBUG EdgeField - setting fieldBound to 10
+2023-12-05 18:33:32.915 [Test worker] DEBUG EdgeField - setting fieldBound to 8
+2023-12-05 18:33:32.915 [Test worker] DEBUG EdgeField - setting fieldBound to 3
+2023-12-05 18:33:32.915 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:32.916 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:32.916 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:32.916 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:32.916 [Test worker] DEBUG EdgeField - setting tableID to 3
+2023-12-05 18:33:32.916 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:32.929 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.004 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.004 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.005 [Test worker] DEBUG EdgeField - setting varcharValue to 2
+2023-12-05 18:33:33.008 [Test worker] DEBUG EdgeField - setting varcharValue to 1
+2023-12-05 18:33:33.009 [Test worker] DEBUG EdgeField - setting varcharValue to 3
+2023-12-05 18:33:33.009 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:33.010 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.031 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.031 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.031 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:33.032 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.042 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.042 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.043 [Test worker] DEBUG EdgeField - setting tableBound to 3
+2023-12-05 18:33:33.049 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:33.051 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.064 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.070 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.081 [Test worker] DEBUG EdgeField - setting fieldBound to -5
+2023-12-05 18:33:33.081 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:33.085 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.131 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.131 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.131 [Test worker] DEBUG EdgeField - getting disallowNull
+2023-12-05 18:33:33.156 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.156 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.158 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.158 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.158 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1
+2023-12-05 18:33:33.159 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.159 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.159 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.160 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.160 [Test worker] DEBUG EdgeField - setting defaultValue to string
+2023-12-05 18:33:33.160 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:33.163 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.163 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.163 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.163 [Test worker] DEBUG EdgeField - getting numFigure
+2023-12-05 18:33:33.164 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.203 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.209 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.210 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:33.211 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.215 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.215 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.217 [Test worker] DEBUG EdgeField - setting disallowNull to true
+2023-12-05 18:33:33.217 [Test worker] DEBUG EdgeField - getting disallowNull
+2023-12-05 18:33:33.219 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.220 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.220 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.221 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.221 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1,MyField
+2023-12-05 18:33:33.222 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.225 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.226 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.226 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.227 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.227 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.227 [Test worker] DEBUG EdgeField - getting numFigure
+2023-12-05 18:33:33.227 [Test worker] DEBUG EdgeField - getting name
+2023-12-05 18:33:33.228 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:33.228 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:33.228 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:33.229 [Test worker] DEBUG EdgeField - getting disallowNull
+2023-12-05 18:33:33.229 [Test worker] DEBUG EdgeField - getting whether isPrimaryKey
+2023-12-05 18:33:33.229 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:33.230 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:33.230 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:33.232 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.304 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.304 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.304 [Test worker] DEBUG EdgeField - setting tableID to 10
+2023-12-05 18:33:33.304 [Test worker] DEBUG EdgeField - setting tableID to 8
+2023-12-05 18:33:33.304 [Test worker] DEBUG EdgeField - setting tableID to 3
+2023-12-05 18:33:33.305 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:33.305 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.306 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|MyField
+2023-12-05 18:33:33.306 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.306 [Test worker] INFO  EdgeField - creating new EdgeField instance
+2023-12-05 18:33:33.307 [Test worker] DEBUG EdgeField - creating new EdgeField instance using 1|2
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - setting defaults for EdgeField
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - getting numFigure
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - getting name
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - getting tableID
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - getting tableBound
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - getting fieldBound
+2023-12-05 18:33:33.308 [Test worker] DEBUG EdgeField - getting disallowNull
+2023-12-05 18:33:33.309 [Test worker] DEBUG EdgeField - getting whether isPrimaryKey
+2023-12-05 18:33:33.309 [Test worker] DEBUG EdgeField - getting defaultValue
+2023-12-05 18:33:33.309 [Test worker] DEBUG EdgeField - getting varcharValue
+2023-12-05 18:33:33.309 [Test worker] DEBUG EdgeField - getting dataType
+2023-12-05 18:33:33.316 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.319 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.409 [Test worker] DEBUG EdgeTable - setting relatedFields[0] to 2
+2023-12-05 18:33:33.410 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@55619f05
+2023-12-05 18:33:33.410 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.431 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.514 [Test worker] DEBUG EdgeTable - adding 1 to alNativeFields
+2023-12-05 18:33:33.517 [Test worker] DEBUG EdgeTable - adding 2 to alNativeFields
+2023-12-05 18:33:33.518 [Test worker] DEBUG EdgeTable - adding 1 to alRelatedTables
+2023-12-05 18:33:33.520 [Test worker] DEBUG EdgeTable - adding 2 to alRelatedTables
+2023-12-05 18:33:33.521 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:33.522 [Test worker] DEBUG EdgeTable - nativeFields array: [I@1b7fd0b2
+2023-12-05 18:33:33.537 [Test worker] DEBUG EdgeTable - relatedTables array: [I@1f852519
+2023-12-05 18:33:33.537 [Test worker] DEBUG EdgeTable - relatedFields array: [I@64f0ea93
+2023-12-05 18:33:33.547 [Test worker] DEBUG EdgeTable - getting numFigure: 1
+2023-12-05 18:33:33.548 [Test worker] DEBUG EdgeTable - getting name: tableName
+2023-12-05 18:33:33.548 [Test worker] DEBUG EdgeTable - getting nativeFields array: [I@1b7fd0b2
+2023-12-05 18:33:33.549 [Test worker] DEBUG EdgeTable - getting relatedTables array: [I@1f852519
+2023-12-05 18:33:33.549 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@64f0ea93
+2023-12-05 18:33:33.551 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.552 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.552 [Test worker] DEBUG EdgeTable - adding 1 to alNativeFields
+2023-12-05 18:33:33.552 [Test worker] DEBUG EdgeTable - adding 2 to alNativeFields
+2023-12-05 18:33:33.553 [Test worker] DEBUG EdgeTable - adding 1 to alRelatedTables
+2023-12-05 18:33:33.553 [Test worker] DEBUG EdgeTable - adding 2 to alRelatedTables
+2023-12-05 18:33:33.553 [Test worker] INFO  EdgeTable - convert the ArrayList into int[]
+2023-12-05 18:33:33.554 [Test worker] DEBUG EdgeTable - nativeFields array: [I@1e8f7aa2
+2023-12-05 18:33:33.564 [Test worker] DEBUG EdgeTable - relatedTables array: [I@7b10c381
+2023-12-05 18:33:33.565 [Test worker] DEBUG EdgeTable - relatedFields array: [I@4d0b8c17
+2023-12-05 18:33:33.569 [Test worker] DEBUG EdgeTable - getting nativeFields array: [I@1e8f7aa2
+2023-12-05 18:33:33.570 [Test worker] DEBUG EdgeTable - getting relatedTables array: [I@7b10c381
+2023-12-05 18:33:33.570 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@4d0b8c17
+2023-12-05 18:33:33.572 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.572 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.572 [Test worker] DEBUG EdgeTable - adding 1 to alRelatedTables
+2023-12-05 18:33:33.573 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.603 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.603 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@2e4c4357
+2023-12-05 18:33:33.604 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.605 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.605 [Test worker] DEBUG EdgeTable - getting name: tableName
+2023-12-05 18:33:33.605 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.606 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.606 [Test worker] INFO  EdgeTable - move the field closer to the end of the list
+2023-12-05 18:33:33.609 [Test worker] DEBUG EdgeTable - switching native fields with index of 0 and 1
+2023-12-05 18:33:33.610 [Test worker] DEBUG EdgeTable - before - nativeFields[0]: 1
+2023-12-05 18:33:33.614 [Test worker] DEBUG EdgeTable - before - nativeFields[1]: 2
+2023-12-05 18:33:33.615 [Test worker] DEBUG EdgeTable - after - nativeFields[0]: 2
+2023-12-05 18:33:33.615 [Test worker] DEBUG EdgeTable - after - nativeFields[1]: 1
+2023-12-05 18:33:33.616 [Test worker] DEBUG EdgeTable - switching related fields with index of 0 and 1
+2023-12-05 18:33:33.617 [Test worker] DEBUG EdgeTable - before - relatedFields[0]: 1
+2023-12-05 18:33:33.617 [Test worker] DEBUG EdgeTable - before - relatedFields[-1]: 2
+2023-12-05 18:33:33.618 [Test worker] DEBUG EdgeTable - after - relatedFields[0]: 2
+2023-12-05 18:33:33.619 [Test worker] DEBUG EdgeTable - after - relatedFields[-1]: 1
+2023-12-05 18:33:33.620 [Test worker] DEBUG EdgeTable - getting nativeFields array: [I@4b737656
+2023-12-05 18:33:33.620 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@3682b872
+2023-12-05 18:33:33.622 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.623 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.623 [Test worker] DEBUG EdgeTable - getting nativeFields array: [I@2778f181
+2023-12-05 18:33:33.625 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.626 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.626 [Test worker] DEBUG EdgeTable - adding 1 to alNativeFields
+2023-12-05 18:33:33.627 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.628 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.629 [Test worker] INFO  EdgeTable - move the field closer to the beginning of the list
+2023-12-05 18:33:33.630 [Test worker] DEBUG EdgeTable - switching native fields with index of 1 and 0
+2023-12-05 18:33:33.631 [Test worker] DEBUG EdgeTable - before -nativeFields[0]: 1
+2023-12-05 18:33:33.632 [Test worker] DEBUG EdgeTable - before - nativeFields[1]: 2
+2023-12-05 18:33:33.632 [Test worker] DEBUG EdgeTable - after - nativeFields[0]: 2
+2023-12-05 18:33:33.632 [Test worker] DEBUG EdgeTable - after - nativeFields[1]: 1
+2023-12-05 18:33:33.633 [Test worker] DEBUG EdgeTable - switching related fields with index of 1 and 0
+2023-12-05 18:33:33.830 [Test worker] DEBUG EdgeTable - before -relatedFields[0]: 1
+2023-12-05 18:33:33.845 [Test worker] DEBUG EdgeTable - before - relatedFields[1]: 2
+2023-12-05 18:33:33.931 [Test worker] DEBUG EdgeTable - after -relatedFields[0]: 2
+2023-12-05 18:33:33.972 [Test worker] DEBUG EdgeTable - after - relatedFields[1]: 1
+2023-12-05 18:33:33.973 [Test worker] DEBUG EdgeTable - getting nativeFields array: [I@6b6258c2
+2023-12-05 18:33:33.973 [Test worker] DEBUG EdgeTable - getting relatedFields array: [I@3b73523e
+2023-12-05 18:33:33.974 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.975 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.975 [Test worker] DEBUG EdgeTable - getting numFigure: 1
+2023-12-05 18:33:33.976 [Test worker] INFO  EdgeTable - creating new EdgeTable instance
+2023-12-05 18:33:33.976 [Test worker] DEBUG EdgeTable - creating new EdgeTable instance using 1|tableName
+2023-12-05 18:33:33.977 [Test worker] DEBUG EdgeTable - adding 1 to alRelatedTables

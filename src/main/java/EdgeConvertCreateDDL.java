@@ -40,6 +40,9 @@ public abstract class EdgeConvertCreateDDL {
          logger.debug("Stepping through tables...");
          int numBound = 0; //initialize counter for number of bound tables
          int[] relatedFields = tables[i].getRelatedFieldsArray();
+        
+          System.out.println("1 - relatedFields arr: "+relatedFields);
+        
          for (int j = 0; j < relatedFields.length; j++) { //step through related fields list
             logger.debug("Stepping through fields...");
             if (relatedFields[j] != 0) {
