@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EdgeConnectorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-12-05T18:33:31" hostname="31edc4a14392" time="0.602">
+<testsuite name="EdgeConnectorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-12-07T02:08:59" hostname="2e3ded117362" time="0.796">
   <properties/>
-  <testcase name="testGetEndPoint1" classname="EdgeConnectorTest" time="0.176"/>
-  <testcase name="testGetEndPoint2" classname="EdgeConnectorTest" time="0.003"/>
-  <testcase name="testGetEndStyle1" classname="EdgeConnectorTest" time="0.002"/>
-  <testcase name="testGetEndStyle2" classname="EdgeConnectorTest" time="0.003"/>
-  <testcase name="testGetNumConnector" classname="EdgeConnectorTest" time="0.092"/>
-  <testcase name="testGetIsEP1Field" classname="EdgeConnectorTest" time="0.014"/>
-  <testcase name="testGetIsEP1Table" classname="EdgeConnectorTest" time="0.082"/>
-  <testcase name="testGetIsEP2Field" classname="EdgeConnectorTest" time="0.005"/>
-  <testcase name="testGetIsEP2Table" classname="EdgeConnectorTest" time="0.087"/>
-  <testcase name="testSetIsEP1Field" classname="EdgeConnectorTest" time="0.078"/>
-  <testcase name="testSetIsEP1Table" classname="EdgeConnectorTest" time="0.039"/>
-  <testcase name="testSetIsEP2Field" classname="EdgeConnectorTest" time="0.007"/>
-  <testcase name="testSetIsEP2Table" classname="EdgeConnectorTest" time="0.002"/>
-  <system-out><![CDATA[06:33:31.237 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.411 INFO class:EdgeConnector - Get endPoint1
-06:33:31.414 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.415 INFO class:EdgeConnector - Get endPoint2
-06:33:31.417 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.418 INFO class:EdgeConnector - Get endStyle1
-06:33:31.420 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.421 INFO class:EdgeConnector - Get endStyle2
-06:33:31.508 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.510 INFO class:EdgeConnector - Get numConnector
-06:33:31.522 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.531 INFO class:EdgeConnector - Get isEP1Field
-06:33:31.535 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.610 INFO class:EdgeConnector - Get isEP1Table
-06:33:31.618 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.620 INFO class:EdgeConnector - Get isEP2Field
-06:33:31.625 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.626 INFO class:EdgeConnector - Get isEP2Table
-06:33:31.719 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.741 INFO class:EdgeConnector - Set isEP1Field to false
-06:33:31.750 INFO class:EdgeConnector - Get isEP1Field
-06:33:31.790 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.825 INFO class:EdgeConnector - Set isEP1Table to false
-06:33:31.828 INFO class:EdgeConnector - Get isEP1Table
-06:33:31.830 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.831 INFO class:EdgeConnector - Set isEP2Field to false
-06:33:31.831 INFO class:EdgeConnector - Get isEP2Field
-06:33:31.837 INFO class:EdgeConnector - Creating new EdgeConnector instance
-06:33:31.837 INFO class:EdgeConnector - Set isEP2Table to false
-06:33:31.837 INFO class:EdgeConnector - Get isEP2Table
+  <testcase name="testGetEndPoint1" classname="EdgeConnectorTest" time="0.185"/>
+  <testcase name="testGetEndPoint2" classname="EdgeConnectorTest" time="0.011"/>
+  <testcase name="testGetEndStyle1" classname="EdgeConnectorTest" time="0.011"/>
+  <testcase name="testGetEndStyle2" classname="EdgeConnectorTest" time="0.075"/>
+  <testcase name="testGetNumConnector" classname="EdgeConnectorTest" time="0.008"/>
+  <testcase name="testGetIsEP1Field" classname="EdgeConnectorTest" time="0.09"/>
+  <testcase name="testGetIsEP1Table" classname="EdgeConnectorTest" time="0.016"/>
+  <testcase name="testGetIsEP2Field" classname="EdgeConnectorTest" time="0.083"/>
+  <testcase name="testGetIsEP2Table" classname="EdgeConnectorTest" time="0.005"/>
+  <testcase name="testSetIsEP1Field" classname="EdgeConnectorTest" time="0.085"/>
+  <testcase name="testSetIsEP1Table" classname="EdgeConnectorTest" time="0.012"/>
+  <testcase name="testSetIsEP2Field" classname="EdgeConnectorTest" time="0.09"/>
+  <testcase name="testSetIsEP2Table" classname="EdgeConnectorTest" time="0.077"/>
+  <system-out><![CDATA[02:08:59.621 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.637 INFO class:EdgeConnector - Get endPoint1
+02:08:59.718 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.725 INFO class:EdgeConnector - Get endPoint2
+02:08:59.735 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.737 INFO class:EdgeConnector - Get endStyle1
+02:08:59.742 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.744 INFO class:EdgeConnector - Get endStyle2
+02:08:59.822 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.825 INFO class:EdgeConnector - Get numConnector
+02:08:59.839 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.921 INFO class:EdgeConnector - Get isEP1Field
+02:08:59.931 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:08:59.940 INFO class:EdgeConnector - Get isEP1Table
+02:08:59.943 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:09:00.022 INFO class:EdgeConnector - Get isEP2Field
+02:09:00.029 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:09:00.032 INFO class:EdgeConnector - Get isEP2Table
+02:09:00.047 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:09:00.118 INFO class:EdgeConnector - Set isEP1Field to false
+02:09:00.120 INFO class:EdgeConnector - Get isEP1Field
+02:09:00.149 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:09:00.150 INFO class:EdgeConnector - Set isEP1Table to false
+02:09:00.154 INFO class:EdgeConnector - Get isEP1Table
+02:09:00.224 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:09:00.230 INFO class:EdgeConnector - Set isEP2Field to false
+02:09:00.233 INFO class:EdgeConnector - Get isEP2Field
+02:09:00.252 INFO class:EdgeConnector - Creating new EdgeConnector instance
+02:09:00.252 INFO class:EdgeConnector - Set isEP2Table to false
+02:09:00.327 INFO class:EdgeConnector - Get isEP2Table
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

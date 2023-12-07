@@ -1,5 +1,5 @@
 { pkgs }: {
   deps = [
-    pkgs.gradle_5
+    pkgs.gradle_7
   ];
 }

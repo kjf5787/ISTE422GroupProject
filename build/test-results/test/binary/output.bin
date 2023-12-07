@@ -1,190 +1,208 @@
-D06:33:29.019 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:29.103 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:29.118 INFO class:EdgeField - creating new EdgeField instance
-D06:33:29.130 INFO class:EdgeField - creating new EdgeField instance
-D06:33:29.134 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:29.134 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:29.136 INFO class:EdgeField - creating new EdgeField instance
-D06:33:29.137 INFO class:EdgeField - creating new EdgeField instance
-E06:33:29.204 INFO class:EdgeTable - convert the ArrayList into int[]
-E06:33:29.594 INFO class:EdgeTable - convert the ArrayList into int[]
-t06:33:30.036 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@4990b164 and [LEdgeField;@1836a1c7
-%2 - relatedFields array: [I@6c025d5e
-#1 - relatedFields arr: [I@6c025d5e
-2 - relatedFields array: null
-1 - relatedFields arr: null
-D06:33:30.242 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.252 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.259 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.261 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.270 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.271 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.273 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.275 INFO class:EdgeField - creating new EdgeField instance
-E06:33:30.280 INFO class:EdgeTable - convert the ArrayList into int[]
-E06:33:30.285 INFO class:EdgeTable - convert the ArrayList into int[]
-s06:33:30.288 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@1c816086 and [LEdgeField;@8402d90
-%2 - relatedFields array: [I@651369cd
-#1 - relatedFields arr: [I@651369cd
-2 - relatedFields array: null
-1 - relatedFields arr: null
-D06:33:30.359 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.420 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.456 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.507 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.517 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.520 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.523 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.545 INFO class:EdgeField - creating new EdgeField instance
-E06:33:30.573 INFO class:EdgeTable - convert the ArrayList into int[]
-E06:33:30.617 INFO class:EdgeTable - convert the ArrayList into int[]
-s06:33:30.626 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@bae89a6 and [LEdgeField;@3edceedf
-%2 - relatedFields array: [I@6e2fc545
-#1 - relatedFields arr: [I@6e2fc545
-2 - relatedFields array: null
-1 - relatedFields arr: null
-D06:33:30.742 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.805 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.809 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.812 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.818 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.820 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.822 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.824 INFO class:EdgeField - creating new EdgeField instance
-E06:33:30.826 INFO class:EdgeTable - convert the ArrayList into int[]
-E06:33:30.828 INFO class:EdgeTable - convert the ArrayList into int[]
-t06:33:30.831 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@13682f88 and [LEdgeField;@421ebf78
-%2 - relatedFields array: [I@5ff9528e
-#1 - relatedFields arr: [I@5ff9528e
-2 - relatedFields array: null
-1 - relatedFields arr: null
-D06:33:30.922 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.926 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.928 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.938 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.940 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.941 INFO class:EdgeTable - creating new EdgeTable instance
-D06:33:30.941 INFO class:EdgeField - creating new EdgeField instance
-D06:33:30.943 INFO class:EdgeField - creating new EdgeField instance
-E06:33:31.003 INFO class:EdgeTable - convert the ArrayList into int[]
-E06:33:31.006 INFO class:EdgeTable - convert the ArrayList into int[]
-t06:33:31.009 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@3ea08590 and [LEdgeField;@502bbf9d
-%2 - relatedFields array: [I@53b3c0f0
-#1 - relatedFields arr: [I@53b3c0f0
-2 - relatedFields array: null
-1 - relatedFields arr: null
-	D06:33:31.107 INFO class:EdgeTable - creating new EdgeTable instance
-	D06:33:31.108 INFO class:EdgeTable - creating new EdgeTable instance
-	D06:33:31.109 INFO class:EdgeField - creating new EdgeField instance
-	D06:33:31.127 INFO class:EdgeField - creating new EdgeField instance
-	D06:33:31.129 INFO class:EdgeTable - creating new EdgeTable instance
-	D06:33:31.131 INFO class:EdgeTable - creating new EdgeTable instance
-	D06:33:31.134 INFO class:EdgeField - creating new EdgeField instance
-	D06:33:31.136 INFO class:EdgeField - creating new EdgeField instance
-	E06:33:31.138 INFO class:EdgeTable - convert the ArrayList into int[]
-	E06:33:31.139 INFO class:EdgeTable - convert the ArrayList into int[]
-	t06:33:31.139 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@5ba5b95b and [LEdgeField;@7097a996
-	%2 - relatedFields array: [I@4416d2e3
-	#1 - relatedFields arr: [I@4416d2e3
-	2 - relatedFields array: null
-	1 - relatedFields arr: null
-
-L06:33:31.237 INFO class:EdgeConnector - Creating new EdgeConnector instance
-
-606:33:31.411 INFO class:EdgeConnector - Get endPoint1
-L06:33:31.414 INFO class:EdgeConnector - Creating new EdgeConnector instance
-606:33:31.415 INFO class:EdgeConnector - Get endPoint2
-L06:33:31.417 INFO class:EdgeConnector - Creating new EdgeConnector instance
-606:33:31.418 INFO class:EdgeConnector - Get endStyle1
-L06:33:31.420 INFO class:EdgeConnector - Creating new EdgeConnector instance
-606:33:31.421 INFO class:EdgeConnector - Get endStyle2
-L06:33:31.508 INFO class:EdgeConnector - Creating new EdgeConnector instance
-906:33:31.510 INFO class:EdgeConnector - Get numConnector
-L06:33:31.522 INFO class:EdgeConnector - Creating new EdgeConnector instance
-706:33:31.531 INFO class:EdgeConnector - Get isEP1Field
-L06:33:31.535 INFO class:EdgeConnector - Creating new EdgeConnector instance
-706:33:31.610 INFO class:EdgeConnector - Get isEP1Table
-L06:33:31.618 INFO class:EdgeConnector - Creating new EdgeConnector instance
-706:33:31.620 INFO class:EdgeConnector - Get isEP2Field
-L06:33:31.625 INFO class:EdgeConnector - Creating new EdgeConnector instance
-706:33:31.626 INFO class:EdgeConnector - Get isEP2Table
-L06:33:31.719 INFO class:EdgeConnector - Creating new EdgeConnector instance
-@06:33:31.741 INFO class:EdgeConnector - Set isEP1Field to false
-706:33:31.750 INFO class:EdgeConnector - Get isEP1Field
-L06:33:31.790 INFO class:EdgeConnector - Creating new EdgeConnector instance
-@06:33:31.825 INFO class:EdgeConnector - Set isEP1Table to false
-706:33:31.828 INFO class:EdgeConnector - Get isEP1Table
-L06:33:31.830 INFO class:EdgeConnector - Creating new EdgeConnector instance
-@06:33:31.831 INFO class:EdgeConnector - Set isEP2Field to false
-706:33:31.831 INFO class:EdgeConnector - Get isEP2Field
-L06:33:31.837 INFO class:EdgeConnector - Creating new EdgeConnector instance
-@06:33:31.837 INFO class:EdgeConnector - Set isEP2Table to false
-706:33:31.837 INFO class:EdgeConnector - Get isEP2Table
-D06:33:31.915 INFO class:EdgeField - creating new EdgeField instance
-D06:33:31.920 INFO class:EdgeField - creating new EdgeField instance
-D06:33:31.927 INFO class:EdgeField - creating new EdgeField instance
-D06:33:31.937 INFO class:EdgeField - creating new EdgeField instance
-D06:33:32.017 INFO class:EdgeField - creating new EdgeField instance
-D06:33:32.077 INFO class:EdgeField - creating new EdgeField instance
-D06:33:32.104 INFO class:EdgeField - creating new EdgeField instance
- D06:33:32.105 INFO class:EdgeField - creating new EdgeField instance
-!D06:33:32.109 INFO class:EdgeField - creating new EdgeField instance
-"D06:33:32.148 INFO class:EdgeField - creating new EdgeField instance
-"D06:33:32.211 INFO class:EdgeField - creating new EdgeField instance
-#D06:33:32.243 INFO class:EdgeField - creating new EdgeField instance
-$D06:33:32.697 INFO class:EdgeField - creating new EdgeField instance
-%D06:33:32.698 INFO class:EdgeField - creating new EdgeField instance
-&D06:33:32.699 INFO class:EdgeField - creating new EdgeField instance
-'D06:33:32.715 INFO class:EdgeField - creating new EdgeField instance
-'D06:33:32.715 INFO class:EdgeField - creating new EdgeField instance
-(D06:33:32.727 INFO class:EdgeField - creating new EdgeField instance
-)D06:33:32.728 INFO class:EdgeField - creating new EdgeField instance
-*D06:33:32.729 INFO class:EdgeField - creating new EdgeField instance
-+D06:33:32.730 INFO class:EdgeField - creating new EdgeField instance
-,D06:33:32.754 INFO class:EdgeField - creating new EdgeField instance
--D06:33:32.756 INFO class:EdgeField - creating new EdgeField instance
-.D06:33:32.757 INFO class:EdgeField - creating new EdgeField instance
-/D06:33:32.757 INFO class:EdgeField - creating new EdgeField instance
-0D06:33:32.758 INFO class:EdgeField - creating new EdgeField instance
-1D06:33:32.904 INFO class:EdgeField - creating new EdgeField instance
-2D06:33:32.916 INFO class:EdgeField - creating new EdgeField instance
-3D06:33:32.929 INFO class:EdgeField - creating new EdgeField instance
-4D06:33:33.010 INFO class:EdgeField - creating new EdgeField instance
-5D06:33:33.032 INFO class:EdgeField - creating new EdgeField instance
-6D06:33:33.051 INFO class:EdgeField - creating new EdgeField instance
-7D06:33:33.085 INFO class:EdgeField - creating new EdgeField instance
-8D06:33:33.156 INFO class:EdgeField - creating new EdgeField instance
-8D06:33:33.158 INFO class:EdgeField - creating new EdgeField instance
-9D06:33:33.159 INFO class:EdgeField - creating new EdgeField instance
-:D06:33:33.163 INFO class:EdgeField - creating new EdgeField instance
-;D06:33:33.164 INFO class:EdgeField - creating new EdgeField instance
-<D06:33:33.211 INFO class:EdgeField - creating new EdgeField instance
-=D06:33:33.219 INFO class:EdgeField - creating new EdgeField instance
-=D06:33:33.221 INFO class:EdgeField - creating new EdgeField instance
->D06:33:33.222 INFO class:EdgeField - creating new EdgeField instance
->D06:33:33.226 INFO class:EdgeField - creating new EdgeField instance
-?D06:33:33.232 INFO class:EdgeField - creating new EdgeField instance
-@D06:33:33.305 INFO class:EdgeField - creating new EdgeField instance
-@D06:33:33.306 INFO class:EdgeField - creating new EdgeField instance
-BAD06:33:33.316 INFO class:EdgeTable - creating new EdgeTable instance
-BA%2 - relatedFields array: [I@55619f05
-BCD06:33:33.410 INFO class:EdgeTable - creating new EdgeTable instance
-BCE06:33:33.521 INFO class:EdgeTable - convert the ArrayList into int[]
-BC%2 - relatedFields array: [I@64f0ea93
-BDD06:33:33.551 INFO class:EdgeTable - creating new EdgeTable instance
-BDE06:33:33.553 INFO class:EdgeTable - convert the ArrayList into int[]
-BD%2 - relatedFields array: [I@4d0b8c17
-BED06:33:33.572 INFO class:EdgeTable - creating new EdgeTable instance
-BFD06:33:33.573 INFO class:EdgeTable - creating new EdgeTable instance
-BF%2 - relatedFields array: [I@2e4c4357
-BGD06:33:33.604 INFO class:EdgeTable - creating new EdgeTable instance
-BHD06:33:33.605 INFO class:EdgeTable - creating new EdgeTable instance
-BHQ06:33:33.606 INFO class:EdgeTable - move the field closer to the end of the list
-BH%2 - relatedFields array: [I@3682b872
-BID06:33:33.622 INFO class:EdgeTable - creating new EdgeTable instance
-BJD06:33:33.625 INFO class:EdgeTable - creating new EdgeTable instance
-BKD06:33:33.627 INFO class:EdgeTable - creating new EdgeTable instance
-BKW06:33:33.629 INFO class:EdgeTable - move the field closer to the beginning of the list
-BK%2 - relatedFields array: [I@3b73523e
-BLD06:33:33.974 INFO class:EdgeTable - creating new EdgeTable instance
-BMD06:33:33.976 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.148 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.217 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.222 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.226 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.228 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.229 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.230 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.232 INFO class:EdgeField - creating new EdgeField instance
+E02:08:58.233 INFO class:EdgeTable - convert the ArrayList into int[]
+E02:08:58.236 INFO class:EdgeTable - convert the ArrayList into int[]
+ 0 table1: [LEdgeTable;@79351f41
+ 0 field1: [LEdgeField;@6399551e
+t02:08:58.317 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@79351f41 and [LEdgeField;@6399551e
+start initialize()
+02 EdgeTable.getRelatedFields array: [I@5d5f10b2
+(1 ECCDDL.relatedFields arr: [I@5d5f10b2
+)2 EdgeTable.getRelatedFields array: null
+!1 ECCDDL.relatedFields arr: null
+D02:08:58.329 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.330 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.331 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.332 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.417 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.418 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.420 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.421 INFO class:EdgeField - creating new EdgeField instance
+E02:08:58.441 INFO class:EdgeTable - convert the ArrayList into int[]
+E02:08:58.446 INFO class:EdgeTable - convert the ArrayList into int[]
+ 0 table1: [LEdgeTable;@32193bea
+ 0 field1: [LEdgeField;@6b8d96d9
+t02:08:58.449 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@32193bea and [LEdgeField;@6b8d96d9
+start initialize()
+02 EdgeTable.getRelatedFields array: [I@69653e16
+(1 ECCDDL.relatedFields arr: [I@69653e16
+)2 EdgeTable.getRelatedFields array: null
+!1 ECCDDL.relatedFields arr: null
+D02:08:58.542 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.624 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.625 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.626 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.632 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.634 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.715 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.728 INFO class:EdgeField - creating new EdgeField instance
+E02:08:58.732 INFO class:EdgeTable - convert the ArrayList into int[]
+E02:08:58.736 INFO class:EdgeTable - convert the ArrayList into int[]
+ 0 table1: [LEdgeTable;@604c5de8
+ 0 field1: [LEdgeField;@37091312
+t02:08:58.752 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@604c5de8 and [LEdgeField;@37091312
+start initialize()
+/2 EdgeTable.getRelatedFields array: [I@66fdec9
+'1 ECCDDL.relatedFields arr: [I@66fdec9
+)2 EdgeTable.getRelatedFields array: null
+!1 ECCDDL.relatedFields arr: null
+D02:08:58.936 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.937 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.937 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.938 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.938 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.939 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:58.953 INFO class:EdgeField - creating new EdgeField instance
+D02:08:58.954 INFO class:EdgeField - creating new EdgeField instance
+E02:08:58.954 INFO class:EdgeTable - convert the ArrayList into int[]
+E02:08:59.027 INFO class:EdgeTable - convert the ArrayList into int[]
+ 0 table1: [LEdgeTable;@576f63f6
+ 0 field1: [LEdgeField;@2dca0d64
+t02:08:59.028 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@576f63f6 and [LEdgeField;@2dca0d64
+start initialize()
+/2 EdgeTable.getRelatedFields array: [I@f80945f
+'1 ECCDDL.relatedFields arr: [I@f80945f
+)2 EdgeTable.getRelatedFields array: null
+!1 ECCDDL.relatedFields arr: null
+D02:08:59.030 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.031 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.054 INFO class:EdgeField - creating new EdgeField instance
+D02:08:59.124 INFO class:EdgeField - creating new EdgeField instance
+D02:08:59.124 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.125 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.138 INFO class:EdgeField - creating new EdgeField instance
+D02:08:59.146 INFO class:EdgeField - creating new EdgeField instance
+E02:08:59.218 INFO class:EdgeTable - convert the ArrayList into int[]
+E02:08:59.235 INFO class:EdgeTable - convert the ArrayList into int[]
+ 0 table1: [LEdgeTable;@77b14724
+ 0 field1: [LEdgeField;@5d9b7a8a
+t02:08:59.237 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@77b14724 and [LEdgeField;@5d9b7a8a
+start initialize()
+02 EdgeTable.getRelatedFields array: [I@1e8ce150
+(1 ECCDDL.relatedFields arr: [I@1e8ce150
+)2 EdgeTable.getRelatedFields array: null
+!1 ECCDDL.relatedFields arr: null
+D02:08:59.316 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.322 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.324 INFO class:EdgeField - creating new EdgeField instance
+D02:08:59.325 INFO class:EdgeField - creating new EdgeField instance
+D02:08:59.328 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.328 INFO class:EdgeTable - creating new EdgeTable instance
+D02:08:59.329 INFO class:EdgeField - creating new EdgeField instance
+D02:08:59.329 INFO class:EdgeField - creating new EdgeField instance
+E02:08:59.330 INFO class:EdgeTable - convert the ArrayList into int[]
+E02:08:59.330 INFO class:EdgeTable - convert the ArrayList into int[]
+ 0 table1: [LEdgeTable;@363042d7
+ 0 field1: [LEdgeField;@366ac49b
+t02:08:59.335 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@363042d7 and [LEdgeField;@366ac49b
+start initialize()
+02 EdgeTable.getRelatedFields array: [I@6ad59d92
+(1 ECCDDL.relatedFields arr: [I@6ad59d92
+)2 EdgeTable.getRelatedFields array: null
+!1 ECCDDL.relatedFields arr: null
+	L02:08:59.621 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	602:08:59.637 INFO class:EdgeConnector - Get endPoint1
+	
+L02:08:59.718 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	
+602:08:59.725 INFO class:EdgeConnector - Get endPoint2
+	L02:08:59.735 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	602:08:59.737 INFO class:EdgeConnector - Get endStyle1
+	L02:08:59.742 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	602:08:59.744 INFO class:EdgeConnector - Get endStyle2
+	L02:08:59.822 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	902:08:59.825 INFO class:EdgeConnector - Get numConnector
+	L02:08:59.839 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	702:08:59.921 INFO class:EdgeConnector - Get isEP1Field
+	L02:08:59.931 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	702:08:59.940 INFO class:EdgeConnector - Get isEP1Table
+	L02:08:59.943 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	702:09:00.022 INFO class:EdgeConnector - Get isEP2Field
+	L02:09:00.029 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	702:09:00.032 INFO class:EdgeConnector - Get isEP2Table
+	L02:09:00.047 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	@02:09:00.118 INFO class:EdgeConnector - Set isEP1Field to false
+	702:09:00.120 INFO class:EdgeConnector - Get isEP1Field
+	L02:09:00.149 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	@02:09:00.150 INFO class:EdgeConnector - Set isEP1Table to false
+	702:09:00.154 INFO class:EdgeConnector - Get isEP1Table
+	L02:09:00.224 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	@02:09:00.230 INFO class:EdgeConnector - Set isEP2Field to false
+	702:09:00.233 INFO class:EdgeConnector - Get isEP2Field
+	L02:09:00.252 INFO class:EdgeConnector - Creating new EdgeConnector instance
+	@02:09:00.252 INFO class:EdgeConnector - Set isEP2Table to false
+	702:09:00.327 INFO class:EdgeConnector - Get isEP2Table
+D02:09:00.427 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.529 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.539 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.621 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.652 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.740 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.824 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.825 INFO class:EdgeField - creating new EdgeField instance
+D02:09:00.846 INFO class:EdgeField - creating new EdgeField instance
+ D02:09:00.939 INFO class:EdgeField - creating new EdgeField instance
+ D02:09:00.941 INFO class:EdgeField - creating new EdgeField instance
+!D02:09:00.945 INFO class:EdgeField - creating new EdgeField instance
+"D02:09:01.330 INFO class:EdgeField - creating new EdgeField instance
+#D02:09:01.341 INFO class:EdgeField - creating new EdgeField instance
+$D02:09:01.518 INFO class:EdgeField - creating new EdgeField instance
+%D02:09:01.543 INFO class:EdgeField - creating new EdgeField instance
+%D02:09:01.543 INFO class:EdgeField - creating new EdgeField instance
+&D02:09:01.628 INFO class:EdgeField - creating new EdgeField instance
+'D02:09:01.724 INFO class:EdgeField - creating new EdgeField instance
+(D02:09:01.725 INFO class:EdgeField - creating new EdgeField instance
+)D02:09:01.726 INFO class:EdgeField - creating new EdgeField instance
+*D02:09:01.742 INFO class:EdgeField - creating new EdgeField instance
++D02:09:01.822 INFO class:EdgeField - creating new EdgeField instance
+,D02:09:01.839 INFO class:EdgeField - creating new EdgeField instance
+-D02:09:01.922 INFO class:EdgeField - creating new EdgeField instance
+.D02:09:01.924 INFO class:EdgeField - creating new EdgeField instance
+/D02:09:01.927 INFO class:EdgeField - creating new EdgeField instance
+0D02:09:02.017 INFO class:EdgeField - creating new EdgeField instance
+1D02:09:02.050 INFO class:EdgeField - creating new EdgeField instance
+2D02:09:02.134 INFO class:EdgeField - creating new EdgeField instance
+3D02:09:02.143 INFO class:EdgeField - creating new EdgeField instance
+4D02:09:02.234 INFO class:EdgeField - creating new EdgeField instance
+5D02:09:02.320 INFO class:EdgeField - creating new EdgeField instance
+6D02:09:02.325 INFO class:EdgeField - creating new EdgeField instance
+6D02:09:02.342 INFO class:EdgeField - creating new EdgeField instance
+7D02:09:02.422 INFO class:EdgeField - creating new EdgeField instance
+8D02:09:02.523 INFO class:EdgeField - creating new EdgeField instance
+9D02:09:02.539 INFO class:EdgeField - creating new EdgeField instance
+:D02:09:02.620 INFO class:EdgeField - creating new EdgeField instance
+;D02:09:02.635 INFO class:EdgeField - creating new EdgeField instance
+;D02:09:02.638 INFO class:EdgeField - creating new EdgeField instance
+<D02:09:02.647 INFO class:EdgeField - creating new EdgeField instance
+<D02:09:02.716 INFO class:EdgeField - creating new EdgeField instance
+=D02:09:02.731 INFO class:EdgeField - creating new EdgeField instance
+>D02:09:02.741 INFO class:EdgeField - creating new EdgeField instance
+>D02:09:02.742 INFO class:EdgeField - creating new EdgeField instance
+@?D02:09:02.840 INFO class:EdgeTable - creating new EdgeTable instance
+@?02 EdgeTable.getRelatedFields array: [I@3016fd5e
+@AD02:09:02.937 INFO class:EdgeTable - creating new EdgeTable instance
+@AE02:09:03.021 INFO class:EdgeTable - convert the ArrayList into int[]
+@A02 EdgeTable.getRelatedFields array: [I@6c45ee6e
+@BD02:09:03.056 INFO class:EdgeTable - creating new EdgeTable instance
+@BE02:09:03.127 INFO class:EdgeTable - convert the ArrayList into int[]
+@B/2 EdgeTable.getRelatedFields array: [I@1338fb5
+@CD02:09:03.221 INFO class:EdgeTable - creating new EdgeTable instance
+@DD02:09:03.252 INFO class:EdgeTable - creating new EdgeTable instance
+@D02 EdgeTable.getRelatedFields array: [I@42463763
+@ED02:09:03.253 INFO class:EdgeTable - creating new EdgeTable instance
+@FD02:09:03.254 INFO class:EdgeTable - creating new EdgeTable instance
+@FQ02:09:03.255 INFO class:EdgeTable - move the field closer to the end of the list
+@F02 EdgeTable.getRelatedFields array: [I@61f05988
+@GD02:09:03.317 INFO class:EdgeTable - creating new EdgeTable instance
+@HD02:09:03.318 INFO class:EdgeTable - creating new EdgeTable instance
+@ID02:09:03.327 INFO class:EdgeTable - creating new EdgeTable instance
+@IW02:09:03.329 INFO class:EdgeTable - move the field closer to the beginning of the list
+@I02 EdgeTable.getRelatedFields array: [I@67c2e933
+@JD02:09:03.426 INFO class:EdgeTable - creating new EdgeTable instance
+@KD02:09:03.428 INFO class:EdgeTable - creating new EdgeTable instance

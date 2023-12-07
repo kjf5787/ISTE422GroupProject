@@ -31,6 +31,8 @@ public abstract class EdgeConvertCreateDDL {
    } //EdgeConvertCreateDDL()
 
    public void initialize() {
+      System.out.println("start initialize()");
+     
       numBoundTables = new int[tables.length];
       maxBound = 0;
       sb = new StringBuffer();
@@ -41,10 +43,12 @@ public abstract class EdgeConvertCreateDDL {
          int numBound = 0; //initialize counter for number of bound tables
          int[] relatedFields = tables[i].getRelatedFieldsArray();
         
-          System.out.println("1 - relatedFields arr: "+relatedFields);
+          System.out.println("1 ECCDDL.relatedFields arr: "+relatedFields);
+          //System.out.println("3 relatedFields.length: "+relatedFields.length);
         
          for (int j = 0; j < relatedFields.length; j++) { //step through related fields list
             logger.debug("Stepping through fields...");
+            System.out.println("["+i+"]");
             if (relatedFields[j] != 0) {
                numBound++; //count the number of non-zero related fields
             }
@@ -56,6 +60,7 @@ public abstract class EdgeConvertCreateDDL {
          }
       }
       logger.info("initialize complete");
+     System.out.println("end initialize()");
    }
    
    protected EdgeTable getTable(int numFigure) {

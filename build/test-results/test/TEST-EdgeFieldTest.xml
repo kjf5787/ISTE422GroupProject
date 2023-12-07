@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EdgeFieldTest" tests="40" skipped="0" failures="0" errors="0" timestamp="2023-12-05T18:33:31" hostname="31edc4a14392" time="1.397">
+<testsuite name="EdgeFieldTest" tests="40" skipped="0" failures="0" errors="0" timestamp="2023-12-07T02:09:00" hostname="2e3ded117362" time="2.327">
   <properties/>
-  <testcase name="testGetFieldBound" classname="EdgeFieldTest" time="0.005"/>
-  <testcase name="testGetIsPrimaryKey" classname="EdgeFieldTest" time="0.004"/>
-  <testcase name="testGetStrDataType" classname="EdgeFieldTest" time="0.012"/>
-  <testcase name="testSetTableBound_givenMultipleCalls" classname="EdgeFieldTest" time="0.077"/>
-  <testcase name="testSetVarcharValue" classname="EdgeFieldTest" time="0.056"/>
-  <testcase name="testSetFieldBound" classname="EdgeFieldTest" time="0.029"/>
-  <testcase name="testGetTableID" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testSetDataType" classname="EdgeFieldTest" time="0.003"/>
-  <testcase name="testGetDataType" classname="EdgeFieldTest" time="0.037"/>
-  <testcase name="testConstructor_givenNoIntegers" classname="EdgeFieldTest" time="0.09"/>
-  <testcase name="testToString" classname="EdgeFieldTest" time="0.366"/>
-  <testcase name="testSetIsPrimaryKey" classname="EdgeFieldTest" time="0.07"/>
-  <testcase name="testSetDataType_givenMultipleCalls" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testSetIsPrimaryKey_givenMultipleCalls" classname="EdgeFieldTest" time="0.015"/>
-  <testcase name="testConstructor_givenNameOnly" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testSetDataType_giveOutOfBoundsParam" classname="EdgeFieldTest" time="0.012"/>
+  <testcase name="testGetFieldBound" classname="EdgeFieldTest" time="0.104"/>
+  <testcase name="testGetIsPrimaryKey" classname="EdgeFieldTest" time="0.009"/>
+  <testcase name="testGetStrDataType" classname="EdgeFieldTest" time="0.08"/>
+  <testcase name="testSetTableBound_givenMultipleCalls" classname="EdgeFieldTest" time="0.026"/>
+  <testcase name="testSetVarcharValue" classname="EdgeFieldTest" time="0.087"/>
+  <testcase name="testSetFieldBound" classname="EdgeFieldTest" time="0.003"/>
+  <testcase name="testGetTableID" classname="EdgeFieldTest" time="0.007"/>
+  <testcase name="testSetDataType" classname="EdgeFieldTest" time="0.018"/>
+  <testcase name="testGetDataType" classname="EdgeFieldTest" time="0.084"/>
+  <testcase name="testConstructor_givenNoIntegers" classname="EdgeFieldTest" time="0.009"/>
+  <testcase name="testToString" classname="EdgeFieldTest" time="0.382"/>
+  <testcase name="testSetIsPrimaryKey" classname="EdgeFieldTest" time="0.009"/>
+  <testcase name="testSetDataType_givenMultipleCalls" classname="EdgeFieldTest" time="0.087"/>
+  <testcase name="testSetIsPrimaryKey_givenMultipleCalls" classname="EdgeFieldTest" time="0.095"/>
+  <testcase name="testConstructor_givenNameOnly" classname="EdgeFieldTest" time="0.004"/>
+  <testcase name="testSetDataType_giveOutOfBoundsParam" classname="EdgeFieldTest" time="0.101"/>
   <testcase name="testSetDefaultValue_givenNull" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testSetVarcharValue_giveOutOfBoundsParam" classname="EdgeFieldTest" time="0.0"/>
-  <testcase name="testGetName" classname="EdgeFieldTest" time="0.0"/>
-  <testcase name="testSetDefaultValue_givenMultipleCalls" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testSetTableID_givenNegativeInt" classname="EdgeFieldTest" time="0.0"/>
-  <testcase name="testSetTableBound_givenNegativeInt" classname="EdgeFieldTest" time="0.0"/>
-  <testcase name="testGetTableBound" classname="EdgeFieldTest" time="0.0"/>
-  <testcase name="testSetDisallowNull_givenMultipleCalls" classname="EdgeFieldTest" time="0.084"/>
-  <testcase name="testSetFieldBound_givenMultipleCalls" classname="EdgeFieldTest" time="0.066"/>
-  <testcase name="testSetTableID" classname="EdgeFieldTest" time="0.012"/>
-  <testcase name="testSetVarcharValue_givenMultipleCalls" classname="EdgeFieldTest" time="0.081"/>
-  <testcase name="testGetDefaultValue" classname="EdgeFieldTest" time="0.021"/>
-  <testcase name="testSetTableBound" classname="EdgeFieldTest" time="0.019"/>
-  <testcase name="testSetFieldBound_givenNegativeInt" classname="EdgeFieldTest" time="0.033"/>
-  <testcase name="testGetDisallowNull" classname="EdgeFieldTest" time="0.047"/>
-  <testcase name="testConstructor_givenNumFigureOnly" classname="EdgeFieldTest" time="0.004"/>
-  <testcase name="testSetDefaultValue" classname="EdgeFieldTest" time="0.003"/>
-  <testcase name="testGetNumFigure" classname="EdgeFieldTest" time="0.001"/>
-  <testcase name="testGetVarcharValue" classname="EdgeFieldTest" time="0.046"/>
-  <testcase name="testSetDisallowNull" classname="EdgeFieldTest" time="0.007"/>
-  <testcase name="testConstructor_givenIncorrectDelim" classname="EdgeFieldTest" time="0.002"/>
-  <testcase name="testConstructor_givenCorrectInput" classname="EdgeFieldTest" time="0.008"/>
-  <testcase name="testSetTableID_givenMultipleCalls" classname="EdgeFieldTest" time="0.074"/>
-  <testcase name="testConstructor_givenOnlyIntegers" classname="EdgeFieldTest" time="0.004"/>
-  <system-out><![CDATA[06:33:31.915 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.920 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.927 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.937 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.017 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.077 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.104 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.105 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.109 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.148 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.211 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.243 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.697 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.698 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.699 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.715 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.715 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.727 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.728 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.729 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.730 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.754 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.756 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.757 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.757 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.758 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.904 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.916 INFO class:EdgeField - creating new EdgeField instance
-06:33:32.929 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.010 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.032 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.051 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.085 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.156 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.158 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.159 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.163 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.164 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.211 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.219 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.221 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.222 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.226 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.232 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.305 INFO class:EdgeField - creating new EdgeField instance
-06:33:33.306 INFO class:EdgeField - creating new EdgeField instance
+  <testcase name="testSetVarcharValue_giveOutOfBoundsParam" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testGetName" classname="EdgeFieldTest" time="0.015"/>
+  <testcase name="testSetDefaultValue_givenMultipleCalls" classname="EdgeFieldTest" time="0.08"/>
+  <testcase name="testSetTableID_givenNegativeInt" classname="EdgeFieldTest" time="0.016"/>
+  <testcase name="testSetTableBound_givenNegativeInt" classname="EdgeFieldTest" time="0.08"/>
+  <testcase name="testGetTableBound" classname="EdgeFieldTest" time="0.002"/>
+  <testcase name="testSetDisallowNull_givenMultipleCalls" classname="EdgeFieldTest" time="0.002"/>
+  <testcase name="testSetFieldBound_givenMultipleCalls" classname="EdgeFieldTest" time="0.004"/>
+  <testcase name="testSetTableID" classname="EdgeFieldTest" time="0.032"/>
+  <testcase name="testSetVarcharValue_givenMultipleCalls" classname="EdgeFieldTest" time="0.025"/>
+  <testcase name="testGetDefaultValue" classname="EdgeFieldTest" time="0.026"/>
+  <testcase name="testSetTableBound" classname="EdgeFieldTest" time="0.074"/>
+  <testcase name="testSetFieldBound_givenNegativeInt" classname="EdgeFieldTest" time="0.096"/>
+  <testcase name="testGetDisallowNull" classname="EdgeFieldTest" time="0.004"/>
+  <testcase name="testConstructor_givenNumFigureOnly" classname="EdgeFieldTest" time="0.094"/>
+  <testcase name="testSetDefaultValue" classname="EdgeFieldTest" time="0.04"/>
+  <testcase name="testGetNumFigure" classname="EdgeFieldTest" time="0.069"/>
+  <testcase name="testGetVarcharValue" classname="EdgeFieldTest" time="0.007"/>
+  <testcase name="testSetDisallowNull" classname="EdgeFieldTest" time="0.008"/>
+  <testcase name="testConstructor_givenIncorrectDelim" classname="EdgeFieldTest" time="0.01"/>
+  <testcase name="testConstructor_givenCorrectInput" classname="EdgeFieldTest" time="0.079"/>
+  <testcase name="testSetTableID_givenMultipleCalls" classname="EdgeFieldTest" time="0.011"/>
+  <testcase name="testConstructor_givenOnlyIntegers" classname="EdgeFieldTest" time="0.002"/>
+  <system-out><![CDATA[02:09:00.427 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.529 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.539 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.621 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.652 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.740 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.824 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.825 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.846 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.939 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.941 INFO class:EdgeField - creating new EdgeField instance
+02:09:00.945 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.330 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.341 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.518 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.543 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.543 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.628 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.724 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.725 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.726 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.742 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.822 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.839 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.922 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.924 INFO class:EdgeField - creating new EdgeField instance
+02:09:01.927 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.017 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.050 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.134 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.143 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.234 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.320 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.325 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.342 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.422 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.523 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.539 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.620 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.635 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.638 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.647 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.716 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.731 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.741 INFO class:EdgeField - creating new EdgeField instance
+02:09:02.742 INFO class:EdgeField - creating new EdgeField instance
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

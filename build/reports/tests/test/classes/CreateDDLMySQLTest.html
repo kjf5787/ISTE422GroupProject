@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">8.287s</div>
+<div class="counter">4.638s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,15 +76,15 @@
 <a name="testconvertStrBooleanToInt"></a>
 <h3 class="failures">testconvertStrBooleanToInt</h3>
 <span class="code">
-<pre>java.lang.NullPointerException
-	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:46)
+<pre>java.lang.NullPointerException: Cannot read the array length because &quot;relatedFields&quot; is null
+	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:49)
 	at EdgeConvertCreateDDL.&lt;init&gt;(EdgeConvertCreateDDL.java:26)
 	at CreateDDLMySQL.&lt;init&gt;(CreateDDLMySQL.java:19)
-	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:29)
+	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -104,30 +104,23 @@
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre>
 </span>
 </div>
@@ -135,15 +128,15 @@
 <a name="testcreateDDL"></a>
 <h3 class="failures">testcreateDDL</h3>
 <span class="code">
-<pre>java.lang.NullPointerException
-	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:46)
+<pre>java.lang.NullPointerException: Cannot read the array length because &quot;relatedFields&quot; is null
+	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:49)
 	at EdgeConvertCreateDDL.&lt;init&gt;(EdgeConvertCreateDDL.java:26)
 	at CreateDDLMySQL.&lt;init&gt;(CreateDDLMySQL.java:19)
-	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:29)
+	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -163,30 +156,23 @@
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre>
 </span>
 </div>
@@ -194,15 +180,15 @@
 <a name="testgenerateDatabaseName"></a>
 <h3 class="failures">testgenerateDatabaseName</h3>
 <span class="code">
-<pre>java.lang.NullPointerException
-	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:46)
+<pre>java.lang.NullPointerException: Cannot read the array length because &quot;relatedFields&quot; is null
+	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:49)
 	at EdgeConvertCreateDDL.&lt;init&gt;(EdgeConvertCreateDDL.java:26)
 	at CreateDDLMySQL.&lt;init&gt;(CreateDDLMySQL.java:19)
-	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:29)
+	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -222,30 +208,23 @@
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre>
 </span>
 </div>
@@ -253,15 +232,15 @@
 <a name="testgetDatabaseName"></a>
 <h3 class="failures">testgetDatabaseName</h3>
 <span class="code">
-<pre>java.lang.NullPointerException
-	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:46)
+<pre>java.lang.NullPointerException: Cannot read the array length because &quot;relatedFields&quot; is null
+	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:49)
 	at EdgeConvertCreateDDL.&lt;init&gt;(EdgeConvertCreateDDL.java:26)
 	at CreateDDLMySQL.&lt;init&gt;(CreateDDLMySQL.java:19)
-	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:29)
+	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -281,30 +260,23 @@
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre>
 </span>
 </div>
@@ -312,15 +284,15 @@
 <a name="testgetProductName"></a>
 <h3 class="failures">testgetProductName</h3>
 <span class="code">
-<pre>java.lang.NullPointerException
-	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:46)
+<pre>java.lang.NullPointerException: Cannot read the array length because &quot;relatedFields&quot; is null
+	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:49)
 	at EdgeConvertCreateDDL.&lt;init&gt;(EdgeConvertCreateDDL.java:26)
 	at CreateDDLMySQL.&lt;init&gt;(CreateDDLMySQL.java:19)
-	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:29)
+	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -340,30 +312,23 @@
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre>
 </span>
 </div>
@@ -371,15 +336,15 @@
 <a name="testgetSQLString"></a>
 <h3 class="failures">testgetSQLString</h3>
 <span class="code">
-<pre>java.lang.NullPointerException
-	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:46)
+<pre>java.lang.NullPointerException: Cannot read the array length because &quot;relatedFields&quot; is null
+	at EdgeConvertCreateDDL.initialize(EdgeConvertCreateDDL.java:49)
 	at EdgeConvertCreateDDL.&lt;init&gt;(EdgeConvertCreateDDL.java:26)
 	at CreateDDLMySQL.&lt;init&gt;(CreateDDLMySQL.java:19)
-	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:29)
+	at CreateDDLMySQLTest.setUp(CreateDDLMySQLTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
@@ -399,30 +364,23 @@
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre>
 </span>
 </div>
@@ -439,32 +397,32 @@
 </thead>
 <tr>
 <td class="failures">testconvertStrBooleanToInt</td>
-<td class="failures">7.325s</td>
+<td class="failures">3.611s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testcreateDDL</td>
-<td class="failures">0.116s</td>
+<td class="failures">0.213s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testgenerateDatabaseName</td>
-<td class="failures">0.170s</td>
+<td class="failures">0.094s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testgetDatabaseName</td>
-<td class="failures">0.120s</td>
+<td class="failures">0.118s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testgetProductName</td>
-<td class="failures">0.202s</td>
+<td class="failures">0.209s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testgetSQLString</td>
-<td class="failures">0.354s</td>
+<td class="failures">0.393s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -472,96 +430,114 @@
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>06:33:29.019 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:29.103 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:29.118 INFO class:EdgeField - creating new EdgeField instance
-06:33:29.130 INFO class:EdgeField - creating new EdgeField instance
-06:33:29.134 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:29.134 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:29.136 INFO class:EdgeField - creating new EdgeField instance
-06:33:29.137 INFO class:EdgeField - creating new EdgeField instance
-06:33:29.204 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:29.594 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.036 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@4990b164 and [LEdgeField;@1836a1c7
-2 - relatedFields array: [I@6c025d5e
-1 - relatedFields arr: [I@6c025d5e
-2 - relatedFields array: null
-1 - relatedFields arr: null
-06:33:30.242 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.252 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.259 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.261 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.270 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.271 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.273 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.275 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.280 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.285 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.288 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@1c816086 and [LEdgeField;@8402d90
-2 - relatedFields array: [I@651369cd
-1 - relatedFields arr: [I@651369cd
-2 - relatedFields array: null
-1 - relatedFields arr: null
-06:33:30.359 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.420 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.456 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.507 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.517 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.520 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.523 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.545 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.573 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.617 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.626 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@bae89a6 and [LEdgeField;@3edceedf
-2 - relatedFields array: [I@6e2fc545
-1 - relatedFields arr: [I@6e2fc545
-2 - relatedFields array: null
-1 - relatedFields arr: null
-06:33:30.742 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.805 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.809 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.812 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.818 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.820 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.822 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.824 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.826 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.828 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:30.831 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@13682f88 and [LEdgeField;@421ebf78
-2 - relatedFields array: [I@5ff9528e
-1 - relatedFields arr: [I@5ff9528e
-2 - relatedFields array: null
-1 - relatedFields arr: null
-06:33:30.922 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.926 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.928 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.938 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.940 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.941 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:30.941 INFO class:EdgeField - creating new EdgeField instance
-06:33:30.943 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.003 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:31.006 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:31.009 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@3ea08590 and [LEdgeField;@502bbf9d
-2 - relatedFields array: [I@53b3c0f0
-1 - relatedFields arr: [I@53b3c0f0
-2 - relatedFields array: null
-1 - relatedFields arr: null
-06:33:31.107 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:31.108 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:31.109 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.127 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.129 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:31.131 INFO class:EdgeTable - creating new EdgeTable instance
-06:33:31.134 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.136 INFO class:EdgeField - creating new EdgeField instance
-06:33:31.138 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:31.139 INFO class:EdgeTable - convert the ArrayList into int[]
-06:33:31.139 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@5ba5b95b and [LEdgeField;@7097a996
-2 - relatedFields array: [I@4416d2e3
-1 - relatedFields arr: [I@4416d2e3
-2 - relatedFields array: null
-1 - relatedFields arr: null
+<pre>02:08:58.148 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.217 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.222 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.226 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.228 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.229 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.230 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.232 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.233 INFO class:EdgeTable - convert the ArrayList into int[]
+02:08:58.236 INFO class:EdgeTable - convert the ArrayList into int[]
+0 table1: [LEdgeTable;@79351f41
+0 field1: [LEdgeField;@6399551e
+02:08:58.317 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@79351f41 and [LEdgeField;@6399551e
+start initialize()
+2 EdgeTable.getRelatedFields array: [I@5d5f10b2
+1 ECCDDL.relatedFields arr: [I@5d5f10b2
+2 EdgeTable.getRelatedFields array: null
+1 ECCDDL.relatedFields arr: null
+02:08:58.329 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.330 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.331 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.332 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.417 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.418 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.420 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.421 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.441 INFO class:EdgeTable - convert the ArrayList into int[]
+02:08:58.446 INFO class:EdgeTable - convert the ArrayList into int[]
+0 table1: [LEdgeTable;@32193bea
+0 field1: [LEdgeField;@6b8d96d9
+02:08:58.449 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@32193bea and [LEdgeField;@6b8d96d9
+start initialize()
+2 EdgeTable.getRelatedFields array: [I@69653e16
+1 ECCDDL.relatedFields arr: [I@69653e16
+2 EdgeTable.getRelatedFields array: null
+1 ECCDDL.relatedFields arr: null
+02:08:58.542 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.624 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.625 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.626 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.632 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.634 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.715 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.728 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.732 INFO class:EdgeTable - convert the ArrayList into int[]
+02:08:58.736 INFO class:EdgeTable - convert the ArrayList into int[]
+0 table1: [LEdgeTable;@604c5de8
+0 field1: [LEdgeField;@37091312
+02:08:58.752 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@604c5de8 and [LEdgeField;@37091312
+start initialize()
+2 EdgeTable.getRelatedFields array: [I@66fdec9
+1 ECCDDL.relatedFields arr: [I@66fdec9
+2 EdgeTable.getRelatedFields array: null
+1 ECCDDL.relatedFields arr: null
+02:08:58.936 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.937 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.937 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.938 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.938 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.939 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:58.953 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.954 INFO class:EdgeField - creating new EdgeField instance
+02:08:58.954 INFO class:EdgeTable - convert the ArrayList into int[]
+02:08:59.027 INFO class:EdgeTable - convert the ArrayList into int[]
+0 table1: [LEdgeTable;@576f63f6
+0 field1: [LEdgeField;@2dca0d64
+02:08:59.028 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@576f63f6 and [LEdgeField;@2dca0d64
+start initialize()
+2 EdgeTable.getRelatedFields array: [I@f80945f
+1 ECCDDL.relatedFields arr: [I@f80945f
+2 EdgeTable.getRelatedFields array: null
+1 ECCDDL.relatedFields arr: null
+02:08:59.030 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.031 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.054 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.124 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.124 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.125 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.138 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.146 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.218 INFO class:EdgeTable - convert the ArrayList into int[]
+02:08:59.235 INFO class:EdgeTable - convert the ArrayList into int[]
+0 table1: [LEdgeTable;@77b14724
+0 field1: [LEdgeField;@5d9b7a8a
+02:08:59.237 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@77b14724 and [LEdgeField;@5d9b7a8a
+start initialize()
+2 EdgeTable.getRelatedFields array: [I@1e8ce150
+1 ECCDDL.relatedFields arr: [I@1e8ce150
+2 EdgeTable.getRelatedFields array: null
+1 ECCDDL.relatedFields arr: null
+02:08:59.316 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.322 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.324 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.325 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.328 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.328 INFO class:EdgeTable - creating new EdgeTable instance
+02:08:59.329 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.329 INFO class:EdgeField - creating new EdgeField instance
+02:08:59.330 INFO class:EdgeTable - convert the ArrayList into int[]
+02:08:59.330 INFO class:EdgeTable - convert the ArrayList into int[]
+0 table1: [LEdgeTable;@363042d7
+0 field1: [LEdgeField;@366ac49b
+02:08:59.335 INFO class:EdgeField - creating new DDL instance using [LEdgeTable;@363042d7 and [LEdgeField;@366ac49b
+start initialize()
+2 EdgeTable.getRelatedFields array: [I@6ad59d92
+1 ECCDDL.relatedFields arr: [I@6ad59d92
+2 EdgeTable.getRelatedFields array: null
+1 ECCDDL.relatedFields arr: null
 </pre>
 </span>
 </div>
@@ -573,7 +549,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at Dec 5, 2023, 6:33:35 PM</p>
+<a href="http://www.gradle.org">Gradle 7.5</a> at Dec 7, 2023, 2:09:04 AM</p>
 </div>
 </div>
 </body>

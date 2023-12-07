@@ -13,19 +13,24 @@ public class CreateDDLMySQLTest {
 
     @Before
     public void setUp() throws Exception {
-        EdgeTable[] table1 = { new EdgeTable("1|table1"), new EdgeTable("1|table2") };
-        EdgeField[] field1 = { new EdgeField("1|field1"), new EdgeField("1|field2") };
-        EdgeTable[] table2 = { new EdgeTable("1|table3"), new EdgeTable("1|table4") };
-        EdgeField[] field2 = { new EdgeField("1|field3"), new EdgeField("1|field4") };
+        EdgeTable[] table1 = { new EdgeTable("1|table1"), new EdgeTable("2|table2") };
+        EdgeField[] field1 = { new EdgeField("3|field1"), new EdgeField("4|field2") };
+        EdgeTable[] table2 = { new EdgeTable("5|table3"), new EdgeTable("6|table4") };
+        EdgeField[] field2 = { new EdgeField("7|field3"), new EdgeField("8|field4") };
 
         //iterate and call makeArrays on every table
         for(int i = 0; i < table1.length-1; i++) {
           table1[i].makeArrays();
+          table1[i].setRelatedFieldsArray(new int[0]);
         }
         for(int i = 0; i < table2.length-1; i++) {
           table2[i].makeArrays();
+          table2[i].setRelatedFieldsArray(new int[0]);
         }
-      
+
+        System.out.println("0 table1: "+table1);
+        System.out.println("0 field1: "+field1);
+
         testObj1 = new CreateDDLMySQL(table1, field1);
         testObj2 = new CreateDDLMySQL(table2, field2);
     }
